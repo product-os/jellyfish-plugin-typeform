@@ -16,3 +16,14 @@ const plugin = new TypeformPlugin()
 const cards = plugin.getCards(context, coreMixins)
 console.dir(cards)
 ```
+
+# Documentation
+
+A plugin that provides cards and an integration relating to user feedback from Typeform.
+
+<a name="exp_module_TypeformPlugin--module.exports"></a>
+
+### module.exports ⏏
+The Typeform Jellyfish plugin.
+
+**Kind**: Exported class  
