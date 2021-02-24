@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update balena/open-balena-base Docker tag to v11.1.0'
+      hash: 945419a88f13297fd09c0220a2eef0cc9944db3b
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.3
+  date: 2021-02-24T16:29:21.086Z
+- commits:
     - subject: 'patch: Update dependency eslint-plugin-jsdoc to v32'
       hash: 2ff8d541d7acb34b93f27ad2fc94910ad5d0b57f
       body: ''

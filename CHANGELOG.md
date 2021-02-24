@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 1.0.3 - 2021-02-24
+
+* patch: Update balena/open-balena-base Docker tag to v11.1.0 [Renovate Bot]
+
 ## 1.0.2 - 2021-02-24
 
 * patch: Update dependency eslint-plugin-jsdoc to v32 [Renovate Bot]
