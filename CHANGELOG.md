@@ -5,4 +5,8 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 1.0.2 - 2021-02-24
+
+* patch: Update dependency eslint-plugin-jsdoc to v32 [Renovate Bot]
+
 * Set upstreams for nested changelogs [Josh Bowling]
