@@ -41,7 +41,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@balena/ci-task-runner": "^0.2.107",
+    "@balena/ci-task-runner": "^0.2.108",
     "@balena/jellycheck": "^0.1.1",
     "@balena/jellyfish-action-library": "^8.0.67",
     "@balena/jellyfish-core": "^2.0.24",
