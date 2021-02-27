@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 1.0.13 - 2021-02-27
+
+* patch: Update dependency eslint to ^7.21.0 [Renovate Bot]
+
 ## 1.0.12 - 2021-02-27
 
 * patch: Update dependency @balena/jellyfish-plugin-default to ^5.0.8 [Renovate Bot]
