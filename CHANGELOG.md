@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 1.0.20 - 2021-02-28
+
+* patch: Update dependency @balena/jellyfish-plugin-default to ^5.0.13 [Renovate Bot]
+
 ## 1.0.19 - 2021-02-28
 
 * patch: Update dependency jsdoc-to-markdown to v7 [Renovate Bot]

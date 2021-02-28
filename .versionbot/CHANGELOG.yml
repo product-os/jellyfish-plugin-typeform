@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^5.0.13'
+      hash: 935633b30b40adfa9bc81f71499c61ce53f6fd9c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.20
+  date: 2021-02-28T08:29:10.132Z
+- commits:
     - subject: 'patch: Update dependency jsdoc-to-markdown to v7'
       hash: fda3cb093988347e14dcda64e6615d4d37dc3715
       body: ''
