@@ -11,6 +11,7 @@
                 "https://api.typeform.com/forms/NLYdaT/responses?included_response_ids=ar7w4yt7agx37v2tmoryryar7w4yt73x"
             ],
             "user": null,
+            "status": "open",
             "timestamp": "2020-03-24T11:46:28.000Z",
             "couldYouBrieflyDescribeYourUsecase": "I am currently writing JellyFish integrations tests",
             "howDidYouFirstHearAboutBalenaCloud": "friends",
@@ -47,6 +48,7 @@
                             "https://api.typeform.com/forms/NLYdaT/responses?included_response_ids=ar7w4yt7agx37v2tmoryryar7w4yt73x"
                         ],
                         "user": null,
+                        "status": "open",
                         "timestamp": "2020-03-24T11:46:28.000Z",
                         "couldYouBrieflyDescribeYourUsecase": "I am currently writing JellyFish integrations tests",
                         "howDidYouFirstHearAboutBalenaCloud": "friends",
