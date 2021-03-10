@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 1.0.33 - 2021-03-10
+
+* Set data.status when translating typeform responses [Graham McCulloch]
+
 ## 1.0.32 - 2021-03-04
 
 * patch: Update dependency @balena/jellyfish-plugin-default to ^5.2.0 [Renovate Bot]
