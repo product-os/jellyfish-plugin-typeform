@@ -11,6 +11,7 @@
                 "https://api.typeform.com/forms/NLYdaT/responses?included_response_ids=jfaekp127dc3h42sjfaemo8tqvytm3gi"
             ],
             "user": "g_marios_balamatsias",
+            "status": "open",
             "timestamp": "2020-04-04T20:17:22.000Z",
             "couldYouBrieflyDescribeYourUsecase": "AI, Blockchain, IoT",
             "howDidYouFirstHearAboutBalenaCloud": "Internet",
@@ -47,6 +48,7 @@
                             "https://api.typeform.com/forms/NLYdaT/responses?included_response_ids=jfaekp127dc3h42sjfaemo8tqvytm3gi"
                         ],
                         "user": "g_marios_balamatsias",
+                        "status": "open",
                         "timestamp": "2020-04-04T20:17:22.000Z",
                         "couldYouBrieflyDescribeYourUsecase": "AI, Blockchain, IoT",
                         "howDidYouFirstHearAboutBalenaCloud": "Internet",
