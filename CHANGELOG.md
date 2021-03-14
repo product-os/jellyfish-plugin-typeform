@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 1.0.34 - 2021-03-14
+
+* Bump jellyfish dependencies [Josh Bowling]
+
 ## 1.0.33 - 2021-03-10
 
 * Set data.status when translating typeform responses [Graham McCulloch]

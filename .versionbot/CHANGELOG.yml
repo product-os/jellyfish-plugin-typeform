@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump jellyfish dependencies
+      hash: 7e9f478a616662361dcf6659a5b6295dfc737faf
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.34
+  date: 2021-03-14T01:49:20.456Z
+- commits:
     - subject: Set data.status when translating typeform responses
       hash: e54b5b551ec7eba9c16cc07af5272c4f4495ee4c
       body: ''
