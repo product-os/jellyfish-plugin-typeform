@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 1.0.35 - 2021-03-17
+
+* patch: Update balena/open-balena-base Docker tag to v11.1.1 [Renovate Bot]
+
 ## 1.0.34 - 2021-03-14
 
 * Bump jellyfish dependencies [Josh Bowling]
