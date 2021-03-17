@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 1.0.36 - 2021-03-17
+
+* patch: Update resinci/jellyfish-test Docker tag to v1.3.41 [Renovate Bot]
+
 ## 1.0.35 - 2021-03-17
 
 * patch: Update balena/open-balena-base Docker tag to v11.1.1 [Renovate Bot]
