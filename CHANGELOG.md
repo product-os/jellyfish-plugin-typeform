@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 1.0.37 - 2021-03-26
+
+* Replace husky with simple-git-hooks [Graham McCulloch]
+
 ## 1.0.36 - 2021-03-17
 
 * patch: Update resinci/jellyfish-test Docker tag to v1.3.41 [Renovate Bot]
