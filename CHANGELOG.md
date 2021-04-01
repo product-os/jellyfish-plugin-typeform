@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 1.0.38 - 2021-03-31
+
+* patch: Update dependency @balena/jellyfish-plugin-base to v2 [Renovate Bot]
+
 ## 1.0.37 - 2021-03-26
 
 * Replace husky with simple-git-hooks [Graham McCulloch]

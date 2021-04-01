@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to v2'
+      hash: cf8f674393eac365041f5e23c86bd26619926b55
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.38
+  date: 2021-03-31T10:11:21.290Z
+- commits:
     - subject: Replace husky with simple-git-hooks
       hash: 2a1069fee89d9991cb9db4221acc3cea6ae84b91
       body: ''
