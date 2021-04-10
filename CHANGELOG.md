@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 1.0.40 - 2021-04-09
+
+* patch: Update dependency eslint-plugin-promise to v5 [Renovate Bot]
+
 ## 1.0.39 - 2021-04-08
 
 * patch: Update non-major Docker tags [Renovate Bot]

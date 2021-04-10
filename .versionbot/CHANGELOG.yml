@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency eslint-plugin-promise to v5'
+      hash: f39e0bded23d21d15f97010929b3e2ee59600ae1
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.40
+  date: 2021-04-09T23:41:00.660Z
+- commits:
     - subject: 'patch: Update non-major Docker tags'
       hash: eaf6136880ad2b11e457e09568a71f4681015725
       body: ''
