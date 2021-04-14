@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 1.0.41 - 2021-04-14
+
+* patch: Update dependency @balena/jellyfish-action-library to v9 [Renovate Bot]
+
 ## 1.0.40 - 2021-04-09
 
 * patch: Update dependency eslint-plugin-promise to v5 [Renovate Bot]

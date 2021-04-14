@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-action-library to v9'
+      hash: 332b872f3c3c29f3647664026a7c08fc0fd0b47e
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.41
+  date: 2021-04-14T03:06:12.357Z
+- commits:
     - subject: 'patch: Update dependency eslint-plugin-promise to v5'
       hash: f39e0bded23d21d15f97010929b3e2ee59600ae1
       body: ''
