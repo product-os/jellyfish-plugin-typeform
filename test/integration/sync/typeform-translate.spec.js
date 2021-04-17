@@ -15,7 +15,13 @@ const {
 } = require('@balena/jellyfish-plugin-channels')
 const TypeformPlugin = require('../../../lib')
 
-syncIntegrationScenario.run(ava, {
+syncIntegrationScenario.run({
+	test: ava.serial,
+	before: ava.before,
+	beforeEach: ava.beforeEach,
+	after: ava.after.always,
+	afterEach: ava.afterEach.always
+}, {
 	basePath: __dirname,
 	plugins: [ ActionLibrary, DefaultPlugin, ChannelsPlugin, TypeformPlugin ],
 	cards: [ 'user-feedback' ],
