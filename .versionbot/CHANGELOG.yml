@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump dev dependencies
+      hash: 005598473bd53a7b9e8725790eda21f5fcad9ecb
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.43
+  date: 2021-04-18T12:21:30.345Z
+- commits:
     - subject: Bump jellyfish-test-harness to v2
       hash: 9415a284158ba35569d63dbe997032f445660ed1
       body: ''
