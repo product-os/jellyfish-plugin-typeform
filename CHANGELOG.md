@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 1.0.45 - 2021-04-18
+
+* Bump jellyfish-plugin-base [Josh Bowling]
+
 ## 1.0.44 - 2021-04-18
 
 * Bump ci-task-runner [Josh Bowling]

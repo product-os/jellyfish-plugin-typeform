@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump jellyfish-plugin-base
+      hash: 253884cb920ed7eb826c08badd04141e2a99a882
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.45
+  date: 2021-04-18T13:42:06.247Z
+- commits:
     - subject: Bump ci-task-runner
       hash: ef643d2444404a286f287c07d652c8aeed3d441c
       body: ''
