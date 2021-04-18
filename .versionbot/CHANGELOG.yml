@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump ci-task-runner
+      hash: ef643d2444404a286f287c07d652c8aeed3d441c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.44
+  date: 2021-04-18T13:06:10.740Z
+- commits:
     - subject: Bump dev dependencies
       hash: 005598473bd53a7b9e8725790eda21f5fcad9ecb
       body: ''
