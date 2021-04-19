@@ -4,7 +4,5 @@
  * Proprietary and confidential.
  */
 
-module.exports = [
-	require('./user-feedback'),
-	require('./channel-user-feedback')
-]
+// tslint:disable: no-var-requires
+export default [require('./typeform')];

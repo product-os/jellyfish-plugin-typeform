@@ -1,21 +1,12 @@
-.PHONY: lint \
-	test \
-	test-translate
-
-# See https://stackoverflow.com/a/18137056
 MAKEFILE_PATH := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
-# -----------------------------------------------
-# Test Runtime Configuration
-# -----------------------------------------------
-
-# Project name
-NAME ?= jellyfish
+LOGLEVEL ?= info
+export LOGLEVEL
+INTEGRATION_DEFAULT_USER ?= admin
+export INTEGRATION_DEFAULT_USER
 
 DATABASE ?= postgres
 export DATABASE
-
-# The default postgres user is your local user
 POSTGRES_USER ?= $(shell whoami)
 export POSTGRES_USER
 POSTGRES_PASSWORD ?=
@@ -27,48 +18,6 @@ export POSTGRES_HOST
 POSTGRES_DATABASE ?= jellyfish
 export POSTGRES_DATABASE
 
-# silence graphile-worker logs
-NO_LOG_SUCCESS = 1
-export NO_LOG_SUCCESS
-
-PORT ?= 8000
-export PORT
-LOGLEVEL ?= info
-export LOGLEVEL
-DB_HOST ?= localhost
-export DB_HOST
-DB_PORT ?= 28015
-export DB_PORT
-DB_USER ?=
-export DB_USER
-DB_PASSWORD ?=
-export DB_PASSWORD
-SERVER_HOST ?= http://localhost
-export SERVER_HOST
-SERVER_PORT ?= $(PORT)
-export SERVER_PORT
-METRICS_PORT ?= 9000
-export METRICS_PORT
-SOCKET_METRICS_PORT ?= 9001
-export SOCKET_METRICS_PORT
-SERVER_DATABASE ?= jellyfish
-export SERVER_DATABASE
-UI_PORT ?= 9000
-export UI_PORT
-UI_HOST ?= $(SERVER_HOST)
-export UI_HOST
-LIVECHAT_HOST ?= $(SERVER_HOST)
-export LIVECHAT_HOST
-LIVECHAT_PORT ?= 9100
-export LIVECHAT_PORT
-DB_CERT ?=
-export DB_CERT
-LOGENTRIES_TOKEN ?=
-export LOGENTRIES_TOKEN
-SENTRY_DSN_SERVER ?=
-export SENTRY_DSN_SERVER
-NODE_ENV ?= test
-export NODE_ENV
 REDIS_NAMESPACE ?= $(SERVER_DATABASE)
 export REDIS_NAMESPACE
 REDIS_PASSWORD ?=
@@ -77,45 +26,6 @@ REDIS_PORT ?= 6379
 export REDIS_PORT
 REDIS_HOST ?= localhost
 export REDIS_HOST
-POD_NAME ?= localhost
-export POD_NAME
-OAUTH_REDIRECT_BASE_URL ?= $(SERVER_HOST):$(UI_PORT)
-export OAUTH_REDIRECT_BASE_URL
-MONITOR_SECRET_TOKEN ?= TEST
-export MONITOR_SECRET_TOKEN
-RESET_PASSWORD_SECRET_TOKEN ?=
-export RESET_PASSWORD_SECRET_TOKEN
-
-FS_DRIVER ?= localFS
-export FS_DRIVER
-AWS_ACCESS_KEY_ID ?=
-export AWS_ACCESS_KEY_ID
-AWS_SECRET_ACCESS_KEY ?=
-export AWS_SECRET_ACCESS_KEY
-AWS_S3_BUCKET_NAME ?=
-export AWS_S3_BUCKET_NAME
-INTEGRATION_DEFAULT_USER ?= admin
-export INTEGRATION_DEFAULT_USER
-
-# Automatically created user
-# when not running in production
-TEST_USER_USERNAME ?= jellyfish
-export TEST_USER_USERNAME
-TEST_USER_PASSWORD ?= jellyfish
-export TEST_USER_PASSWORD
-TEST_USER_ROLE ?= user-test
-export TEST_USER_ROLE
-TEST_USER_ORGANIZATION ?= balena
-export TEST_USER_ORGANIZATION
-
-MAIL_TYPE ?= mailgun
-export MAIL_TYPE
-MAILGUN_TOKEN ?=
-export MAILGUN_TOKEN
-MAILGUN_DOMAIN ?= mail.ly.fish
-export MAILGUN_DOMAIN
-MAILGUN_BASE_URL = https://api.mailgun.net/v3
-export MAILGUN_BASE_URL
 
 # Set dotenv variables for local development/testing
 ifndef CI
@@ -132,45 +42,43 @@ ifndef CI
     endif
 endif
 
-# -----------------------------------------------
-# Build Configuration
-# -----------------------------------------------
+# Define make commands that wrap npm scripts to ensure a more consistent workflow across repos
+.PHONY: clean
+clean:
+	npm run clean
 
-# To make sure we don't silently swallow errors
-NODE_ARGS = --abort-on-uncaught-exception --stack-trace-limit=100
-NODE_DEBUG_ARGS = $(NODE_ARGS) --trace-warnings --stack_trace_on_illegal
+.PHONY: build
+build:
+	npm run build
 
-# User parameters
-FIX ?=
-ifeq ($(FIX),)
-ESLINT_OPTION_FIX =
-else
-ESLINT_OPTION_FIX = --fix
-endif
-
-AVA_ARGS = $(AVA_OPTS)
-ifndef CI
-AVA_ARGS += --fail-fast
-endif
-ifdef MATCH
-AVA_ARGS += --match $(MATCH)
-endif
-
-FILES ?= "'./lib/**/*.spec.js'"
-export FILES
-
-# -----------------------------------------------
-# Rules
-# -----------------------------------------------
-
+.PHONY: lint
 lint:
-	npx eslint --ext .js $(ESLINT_OPTION_FIX) lib
-	npx jellycheck
-	npx deplint
-	npx depcheck --ignore-bin-package --ignores='@balena/jellyfish-plugin-default'
+	npm run lint
 
+.PHONY: lint-fix
+lint-fix:
+	npm run lint-fix
+
+.PHONY: test-unit
+test-unit:
+	npm run unit
+
+.PHONY: test
 test:
-	node $(NODE_DEBUG_ARGS) ./node_modules/.bin/ava --serial -v $(AVA_ARGS) $(FILES)
+	npm run test
 
+.PHONY: test-translate
 test-translate:
-	FILES="'./test/integration/sync/typeform-translate.spec.js'" make test
+	npx jest ./test/integration/sync/typeform-translate.spec.ts
+
+.PHONY: doc
+doc:
+	npm run doc
+
+.PHONY: prepack
+prepack:
+	npm run prepack
+
+.PHONY: check
+check:
+	npm run check
