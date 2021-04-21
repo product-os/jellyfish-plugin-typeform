@@ -4,25 +4,25 @@
  * Proprietary and confidential.
  */
 
-module.exports = {
+export default {
 	slug: 'channel-user-feedback',
 	name: 'User Feedback',
 	type: 'channel@1.0.0',
-	markers: [ 'org-balena' ],
+	markers: ['org-balena'],
 	data: {
 		filter: {
 			name: 'User feedback cards',
 			schema: {
 				type: 'object',
 				additionalProperties: true,
-				required: [ 'type' ],
+				required: ['type'],
 				properties: {
 					type: {
 						type: 'string',
-						const: 'user-feedback@1.0.0'
-					}
-				}
-			}
-		}
-	}
-}
+						const: 'user-feedback@1.0.0',
+					},
+				},
+			},
+		},
+	},
+};

@@ -1,15 +1,9 @@
 tickTimeout: 5
 retryTimeout: 120
 attemptsDefault: 3
-environment:
-  - name: 'AVA_OPTS'
-    value: '--fail-fast'
 tasks:
   - name: 'typeform-translate'
     description: 'Typeform Translate Tests'
-    command: 'make test'
+    command: 'make test-translate'
     cwd: '/usr/src/jellyfish'
     required: true
-    environment:
-      - name: 'FILES'
-        value: './test/integration/sync/typeform-translate.spec.js'  

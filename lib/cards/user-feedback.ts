@@ -4,10 +4,22 @@
  * Proprietary and confidential.
  */
 
-module.exports = ({
-	mixin, withEvents, asPipelineItem
-}) => {
-	return mixin(withEvents, asPipelineItem())({
+import type { ContractDefinition } from '@balena/jellyfish-types/build/core';
+
+// TS-TODO: Use proper types
+export default function ({
+	mixin,
+	withEvents,
+	asPipelineItem,
+}: {
+	mixin: any;
+	withEvents?: any;
+	asPipelineItem?: any;
+}): ContractDefinition {
+	return mixin(
+		withEvents,
+		asPipelineItem(),
+	)({
 		slug: 'user-feedback',
 		name: 'User Feedback',
 		type: 'type@1.0.0',
@@ -15,70 +27,69 @@ module.exports = ({
 		data: {
 			schema: {
 				type: 'object',
-				required: [
-					'data'
-				],
+				required: ['data'],
 				properties: {
 					name: {
-						type: 'string'
+						type: 'string',
 					},
 					data: {
 						type: 'object',
 						properties: {
 							user: {
 								title: 'Username',
-								type: [ 'string', 'null' ],
-								fullTextSearch: true
+								type: ['string', 'null'],
+								fullTextSearch: true,
 							},
 							howDidYouFirstHearAboutBalenaCloud: {
 								title: 'How did you first hear about balenaCloud?',
 								type: 'string',
-								fullTextSearch: true
+								fullTextSearch: true,
 							},
 							howWouldYouDescribeYourRole: {
 								title: 'How would you describe your role?',
 								type: 'string',
-								fullTextSearch: true
+								fullTextSearch: true,
 							},
 							couldYouBrieflyDescribeYourUsecase: {
 								title: 'Could you briefly describe your use case?',
 								type: 'string',
-								fullTextSearch: true
+								fullTextSearch: true,
 							},
 							howHasYourExperienceBeenSoFar: {
-							// eslint-disable-next-line max-len
-								title: 'How has your experience been so far? What can we improve? We count on your honest feedback to make balenaCloud better.',
+								title:
+									'How has your experience been so far? What can we improve? We count on your honest feedback to make balenaCloud better.',
 								type: 'string',
-								fullTextSearch: true
+								fullTextSearch: true,
 							},
 							howLikelyAreYouToRecommendBalenaCloud: {
-								title: 'How likely are you to recommend balenaCloud to a friend or co-worker?',
-								type: 'number'
+								title:
+									'How likely are you to recommend balenaCloud to a friend or co-worker?',
+								type: 'number',
 							},
 							curatedOrigin: {
 								title: 'Curated Origin',
 								type: 'string',
-								fullTextSearch: true
+								fullTextSearch: true,
 							},
 							originDetail: {
 								title: 'Curated Origin Detail',
 								type: 'string',
-								fullTextSearch: true
+								fullTextSearch: true,
 							},
 							role: {
 								title: 'Curated Role',
 								type: 'string',
-								fullTextSearch: true
+								fullTextSearch: true,
 							},
 							useCaseSegment: {
 								title: 'Curated Use Case Segment',
 								type: 'string',
-								fullTextSearch: true
+								fullTextSearch: true,
 							},
 							useCaseDetail: {
 								title: 'Curated Use Case Detail',
 								type: 'string',
-								fullTextSearch: true
+								fullTextSearch: true,
 							},
 							experienceEvaluation: {
 								title: 'Curated Experierience Evaluation',
@@ -89,22 +100,22 @@ module.exports = ({
 									'Somewhat Positive',
 									'Neutral',
 									'Somewhat Negative',
-									'Very Negative'
-								]
+									'Very Negative',
+								],
 							},
 							issuesWants: {
 								title: 'Curated Issues/Wants',
 								type: 'string',
-								fullTextSearch: true
+								fullTextSearch: true,
 							},
 							highlights: {
 								title: 'Curated Highlights',
 								type: 'string',
-								fullTextSearch: true
-							}
-						}
-					}
-				}
+								fullTextSearch: true,
+							},
+						},
+					},
+				},
 			},
 			uiSchema: {
 				fields: {
@@ -125,15 +136,15 @@ module.exports = ({
 							'experienceEvaluation',
 							'issuesWants',
 							'highlights',
-							'*'
-						]
-					}
+							'*',
+						],
+					},
 				},
 				edit: {
-					$ref: '#/data/uiSchema/definitions/form'
+					$ref: '#/data/uiSchema/definitions/form',
 				},
 				create: {
-					$ref: '#/data/uiSchema/edit'
+					$ref: '#/data/uiSchema/edit',
 				},
 				definitions: {
 					form: {
@@ -153,61 +164,61 @@ module.exports = ({
 								'experienceEvaluation',
 								'issuesWants',
 								'highlights',
-								'*'
+								'*',
 							],
 							curatedOrigin: {
 								'ui:widget': 'AutoCompleteWidget',
 								'ui:options': {
 									resource: 'user-feedback',
-									keyPath: 'data.curatedOrigin'
-								}
+									keyPath: 'data.curatedOrigin',
+								},
 							},
 							originDetail: {
 								'ui:widget': 'AutoCompleteWidget',
 								'ui:options': {
 									resource: 'user-feedback',
-									keyPath: 'data.originDetail'
-								}
+									keyPath: 'data.originDetail',
+								},
 							},
 							role: {
 								'ui:widget': 'AutoCompleteWidget',
 								'ui:options': {
 									resource: 'user-feedback',
-									keyPath: 'data.role'
-								}
+									keyPath: 'data.role',
+								},
 							},
 							useCaseSegment: {
 								'ui:widget': 'AutoCompleteWidget',
 								'ui:options': {
 									resource: 'user-feedback',
-									keyPath: 'data.useCaseSegment'
-								}
+									keyPath: 'data.useCaseSegment',
+								},
 							},
 							useCaseDetail: {
 								'ui:widget': 'AutoCompleteWidget',
 								'ui:options': {
 									resource: 'user-feedback',
-									keyPath: 'data.useCaseDetail'
-								}
+									keyPath: 'data.useCaseDetail',
+								},
 							},
 							issuesWants: {
 								'ui:widget': 'AutoCompleteWidget',
 								'ui:options': {
 									resource: 'user-feedback',
-									keyPath: 'data.issuesWants'
-								}
+									keyPath: 'data.issuesWants',
+								},
 							},
 							highlights: {
 								'ui:widget': 'AutoCompleteWidget',
 								'ui:options': {
 									resource: 'user-feedback',
-									keyPath: 'data.highlights'
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	})
+									keyPath: 'data.highlights',
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+	});
 }

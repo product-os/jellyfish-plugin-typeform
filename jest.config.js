@@ -4,6 +4,7 @@
  * Proprietary and confidential.
  */
 
-module.exports = [
-	require('./typeform')
-]
+module.exports = {
+	preset: "ts-jest",
+	testEnvironment: "node",
+};
