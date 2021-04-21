@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 2.0.0 - 2021-04-21
+
+* Convert to TypeScript [Josh Bowling]
+
 ## 1.0.51 - 2021-04-21
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.3 [Renovate Bot]
