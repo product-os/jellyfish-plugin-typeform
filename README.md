@@ -19,11 +19,6 @@ console.dir(cards)
 
 # Documentation
 
-A plugin that provides cards and an integration relating to user feedback from Typeform.
+[![Publish Documentation](https://github.com/product-os/jellyfish-plugin-typeform/actions/workflows/publish-docs.yml/badge.svg)](https://github.com/product-os/jellyfish-plugin-typeform/actions/workflows/publish-docs.yml)
 
-<a name="exp_module_TypeformPlugin--module.exports"></a>
-
-### module.exports ⏏
-The Typeform Jellyfish plugin.
-
-**Kind**: Exported class  
+Visit the website for complete documentation: https://product-os.github.io/jellyfish-plugin-typeform
