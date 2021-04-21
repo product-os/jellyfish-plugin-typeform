@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 2.0.1 - 2021-04-21
+
+* Publish docs with GitHub action [Josh Bowling]
+
 ## 2.0.0 - 2021-04-21
 
 * Convert to TypeScript [Josh Bowling]
