@@ -1,9 +1,0 @@
-tickTimeout: 5
-retryTimeout: 120
-attemptsDefault: 3
-tasks:
-  - name: 'typeform-translate'
-    description: 'Typeform Translate Tests'
-    command: 'make test-translate'
-    cwd: '/usr/src/jellyfish'
-    required: true
