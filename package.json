@@ -45,13 +45,13 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-plugin-base": "^2.1.9",
+    "@balena/jellyfish-plugin-base": "^2.1.11",
     "@balena/jellyfish-plugin-default": "^9.1.6",
     "bluebird": "^3.7.2",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@balena/ci-task-runner": "^0.2.122",
+    "@balena/ci-task-runner": "^0.2.123",
     "@balena/jellycheck": "^0.1.1",
     "@balena/jellyfish-action-library": "^9.0.47",
     "@balena/jellyfish-core": "^2.12.97",
@@ -67,7 +67,7 @@
     "lint-staged": "^10.5.4",
     "simple-git-hooks": "^2.3.1",
     "ts-jest": "^26.5.5",
-    "typedoc": "^0.20.35",
+    "typedoc": "^0.20.36",
     "uuid": "^8.3.2"
   },
   "simple-git-hooks": {
