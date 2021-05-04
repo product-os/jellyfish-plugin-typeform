@@ -7,7 +7,10 @@
 import _ from 'lodash';
 import crypto from 'crypto';
 import Bluebird from 'bluebird';
-import type { Contract } from '@balena/jellyfish-types/build/core';
+import type {
+	Contract,
+	ContractData,
+} from '@balena/jellyfish-types/build/core';
 import type {
 	Integration,
 	IntegrationResult,
@@ -43,7 +46,7 @@ module.exports = class TypeformIntegration implements Integration {
 	}
 
 	// TS-TODO: Use proper types
-	async translate(event: any): Promise<IntegrationResult[]> {
+	async translate(event: any): Promise<Array<IntegrationResult<ContractData>>> {
 		if (!this.options.token || !this.options.token.signature) {
 			return [];
 		}
