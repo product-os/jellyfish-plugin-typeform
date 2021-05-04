@@ -5,6 +5,11 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 2.0.41 - 2021-05-04
+
+* Fix TypeScript types [Graham McCulloch]
+* patch: Update non-major [Renovate Bot]
+
 ## 2.0.40 - 2021-04-30
 
 * patch: Update non-major [Renovate Bot]

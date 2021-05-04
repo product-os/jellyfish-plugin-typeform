@@ -1,4 +1,26 @@
 - commits:
+    - subject: Fix TypeScript types
+      hash: abeab27e26e71bff70f4c44a85b9cfc94406cf59
+      body: |
+        Temporary generic type.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+    - subject: 'patch: Update non-major'
+      hash: 0988e4ab4ede9ec4adc9e6f4f0ef786ca69cd57b
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.41
+  date: 2021-05-04T02:51:50.694Z
+- commits:
     - subject: 'patch: Update non-major'
       hash: a2e04c6e28990876f13c24171378f70567a7dc08
       body: ''
