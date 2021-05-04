@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 2.0.42 - 2021-05-04
+
+* patch: Update resinci/jellyfish-test Docker tag to v1.3.44 [Renovate Bot]
+
 ## 2.0.41 - 2021-05-04
 
 * Fix TypeScript types [Graham McCulloch]
