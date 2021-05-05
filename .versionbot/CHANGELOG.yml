@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/ci-task-runner to ^0.2.131'
+      hash: b2ba629ab36912083c31e5a927f59c04e5785e4a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.54
+  date: 2021-05-05T10:56:19.130Z
+- commits:
     - subject: 'patch: Update resinci/jellyfish-test Docker tag to v1.3.45'
       hash: 2efbb1400db566204dce3e0bdd35f202edb42665
       body: ''

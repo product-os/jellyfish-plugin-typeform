@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 2.0.54 - 2021-05-05
+
+* patch: Update dependency @balena/ci-task-runner to ^0.2.131 [Renovate Bot]
+
 ## 2.0.53 - 2021-05-05
 
 * patch: Update resinci/jellyfish-test Docker tag to v1.3.45 [Renovate Bot]
