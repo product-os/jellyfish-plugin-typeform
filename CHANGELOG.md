@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 2.0.61 - 2021-05-06
+
+* patch: Update non-major [Renovate Bot]
+
 ## 2.0.60 - 2021-05-05
 
 * patch: Update dependency catch-uncommitted to v2 [Renovate Bot]
