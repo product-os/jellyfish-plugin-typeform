@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update non-major'
+      hash: db3029dee2973101b28bcdc6723a1c5b5adb2ea8
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.67
+  date: 2021-05-08T05:13:31.966Z
+- commits:
     - subject: 'build(deps): bump underscore from 1.12.0 to 1.13.1'
       hash: 94b1456ea9b40ad28768db99ca59af794c3264a1
       body: >
