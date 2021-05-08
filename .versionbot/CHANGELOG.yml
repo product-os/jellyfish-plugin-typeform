@@ -1,4 +1,24 @@
 - commits:
+    - subject: 'build(deps): bump underscore from 1.12.0 to 1.13.1'
+      hash: 94b1456ea9b40ad28768db99ca59af794c3264a1
+      body: >
+        Bumps [underscore](https://github.com/jashkenas/underscore) from 1.12.0
+        to 1.13.1.
+
+        - [Release notes](https://github.com/jashkenas/underscore/releases)
+
+        -
+        [Commits](https://github.com/jashkenas/underscore/compare/1.12.0...1.13.1)
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: 'dependabot[bot] <support@github.com>'
+        signed-off-by: 'dependabot[bot] <support@github.com>'
+      author: 'dependabot[bot]'
+      nested: []
+  version: 2.0.66
+  date: 2021-05-08T03:29:52.066Z
+- commits:
     - subject: 'patch: Update non-major'
       hash: 262ec992989a04fe96517bc521ecf0f0aab9ae88
       body: ''

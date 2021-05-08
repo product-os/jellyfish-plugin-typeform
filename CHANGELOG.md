@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 2.0.66 - 2021-05-08
+
+* build(deps): bump underscore from 1.12.0 to 1.13.1 [dependabot[bot]]
+
 ## 2.0.65 - 2021-05-08
 
 * patch: Update non-major [Renovate Bot]
