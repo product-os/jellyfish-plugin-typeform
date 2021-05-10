@@ -46,12 +46,12 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@balena/jellyfish-plugin-base": "^2.1.84",
-    "@balena/jellyfish-plugin-default": "^9.2.27",
+    "@balena/jellyfish-plugin-default": "^9.2.28",
     "bluebird": "^3.7.2",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@balena/ci-task-runner": "^0.2.137",
+    "@balena/ci-task-runner": "^0.2.138",
     "@balena/jellycheck": "^0.1.1",
     "@balena/jellyfish-action-library": "^9.0.47",
     "@balena/jellyfish-core": "^2.12.97",
