@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 2.0.81 - 2021-05-11
+
+* patch: Update dependency @balena/ci-task-runner to ^0.2.139 [Renovate Bot]
+
 ## 2.0.80 - 2021-05-11
 
 * patch: Update dependency depcheck to ^1.4.1 [Renovate Bot]
