@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency depcheck to ^1.4.1'
+      hash: cb687ef1a9eab68d901bb8a8d73f35cc5c534451
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.80
+  date: 2021-05-11T07:49:12.271Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^9.2.29'
       hash: 5671f2bb7a54b8b0a42a7000165a676e6a3ab560
       body: ''
