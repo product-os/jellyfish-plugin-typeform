@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 2.0.134 - 2021-05-22
+
+* patch: Update internal-non-major [Renovate Bot]
+
 ## 2.0.133 - 2021-05-22
 
 * Use jellyfish-config [Josh Bowling]
