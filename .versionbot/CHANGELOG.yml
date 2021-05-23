@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update renovate config
+      hash: b96a385eba9a91478ac0e4e7c9d0eacb6ab0b5ee
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.135
+  date: 2021-05-23T02:44:40.560Z
+- commits:
     - subject: 'patch: Update internal-non-major'
       hash: 922f187c59d6c7ca005e934e358c624541da82cc
       body: ''
