@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 63c04b213aa82ebdffc05e44b12d8c7d7035ea3e
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.144
+  date: 2021-05-24T08:36:41.722Z
+- commits:
     - subject: Update jellyfish-config and lint command
       hash: c68f8412d4481dc66c16ab0321e550beac000995
       body: ''
