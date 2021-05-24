@@ -59,7 +59,7 @@
     "@balena/jellyfish-plugin-channels": "^1.1.114",
     "@balena/jellyfish-test-harness": "^2.0.223",
     "@balena/jellyfish-types": "^0.5.116",
-    "@balena/lint": "^5.4.2",
+    "@balena/lint": "^6.0.0",
     "@types/jest": "^26.0.23",
     "catch-uncommitted": "^2.0.0",
     "depcheck": "^1.4.1",
