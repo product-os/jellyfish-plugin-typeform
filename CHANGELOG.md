@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 2.0.149 - 2021-05-25
+
+* build(deps): bump browserslist from 4.16.4 to 4.16.6 [dependabot[bot]]
+
 ## 2.0.148 - 2021-05-25
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.103 [Renovate Bot]
