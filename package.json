@@ -46,7 +46,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@balena/jellyfish-plugin-base": "^2.1.114",
-    "@balena/jellyfish-plugin-default": "^10.0.2",
+    "@balena/jellyfish-plugin-default": "^11.0.0",
     "bluebird": "^3.7.2",
     "lodash": "^4.17.21"
   },
@@ -55,9 +55,9 @@
     "@balena/jellycheck": "^0.1.1",
     "@balena/jellyfish-action-library": "^11.0.3",
     "@balena/jellyfish-config": "^1.0.6",
-    "@balena/jellyfish-core": "^2.13.129",
-    "@balena/jellyfish-plugin-channels": "^1.1.114",
-    "@balena/jellyfish-test-harness": "^2.0.223",
+    "@balena/jellyfish-core": "^3.0.0",
+    "@balena/jellyfish-plugin-channels": "^1.1.136",
+    "@balena/jellyfish-test-harness": "^3.0.6",
     "@balena/jellyfish-types": "^0.5.116",
     "@balena/lint": "^6.1.1",
     "@types/jest": "^26.0.23",
