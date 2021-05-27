@@ -1,3 +1,6 @@
+# This file is auto-synced from product-os/jellyfish-config/sync/Dockerfile.ci
+# and should only be edited there!
+
 ###########################################################
 # Runtime
 ###########################################################
@@ -6,8 +9,7 @@ FROM resinci/jellyfish-test:v1.3.46
 
 WORKDIR /usr/src/jellyfish
 
-COPY . /usr/src/jellyfish/
-
+COPY . ./
 ARG NPM_TOKEN
 RUN echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc && \
     npm ci && rm -f ~/.npmrc
