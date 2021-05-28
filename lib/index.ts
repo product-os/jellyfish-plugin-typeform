@@ -9,7 +9,7 @@ import { JellyfishPluginBase } from '@balena/jellyfish-plugin-base';
 import cards from './cards';
 import integrations from './integrations';
 
-// TS-TODO: Update import after core is converted to TypeScript
+// TS-TODO: don't load mixins with a deep import
 const defaultPluginMixins = require('@balena/jellyfish-plugin-default/lib/cards/mixins');
 
 /**
