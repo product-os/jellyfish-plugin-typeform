@@ -4,11 +4,8 @@
  * Proprietary and confidential.
  */
 
-// tslint:disable: no-var-requires
+import { cardMixins as coreMixins } from '@balena/jellyfish-core';
 import { TypeformPlugin } from '../../lib/index';
-
-// TS-TODO: Update import after core is converted to TypeScript
-const coreMixins = require('@balena/jellyfish-core/lib/cards/mixins');
 
 const context = {
 	id: 'jellyfish-plugin-typeform-test',
@@ -17,6 +14,7 @@ const context = {
 const plugin = new TypeformPlugin();
 
 test('Expected cards are loaded', () => {
+	console.log(coreMixins);
 	const cards = plugin.getCards(context, coreMixins);
 
 	// Sanity check

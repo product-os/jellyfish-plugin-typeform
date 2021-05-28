@@ -16,6 +16,7 @@ export default function ({
 	withEvents?: any;
 	asPipelineItem?: any;
 }): ContractDefinition {
+	console.log({ asPipelineItem, withEvents });
 	return mixin(
 		withEvents,
 		asPipelineItem(),
