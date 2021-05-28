@@ -1,4 +1,29 @@
 - commits:
+    - subject: Upgrade to typescript core and default plugin v11
+      hash: a0a1780d9bbb1cfb7b5d239ebd8d47b367d8e792
+      body: |
+        This change also removes the unused "catch-uncommitted" dependency.
+        Because docs are now built in a seperate github action, the
+        catch-uncommitted module filled no purpose.
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+    - subject: 'patch: Update dependency @balena/jellyfish-test-harness to v3'
+      hash: 8c4439f51e86faa0c6df0e854c41a372b20a197f
+      body: |
+        Update @balena/jellyfish-test-harness from 2.0.223 to 3.0.7
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.0
+  date: 2021-05-28T09:44:10.393Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.114'
       hash: ae53b34c5fbadcfd3dbc3f95c335b69fc2698436
       body: ''
