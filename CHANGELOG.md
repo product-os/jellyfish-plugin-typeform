@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.1 - 2021-05-29
+
+* patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.115 [Renovate Bot]
+
 ## 3.0.0 - 2021-05-28
 
 * Upgrade to typescript core and default plugin v11 [Lucian Buzzo]

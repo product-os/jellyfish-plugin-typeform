@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.115'
+      hash: f952b5ffc56ed68b3d1526ef7ea2acef936cdfc6
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.1
+  date: 2021-05-29T00:53:24.851Z
+- commits:
     - subject: Upgrade to typescript core and default plugin v11
       hash: a0a1780d9bbb1cfb7b5d239ebd8d47b367d8e792
       body: |
