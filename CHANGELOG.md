@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.13 - 2021-05-29
+
+* patch: Update dependency @balena/ci-task-runner to ^0.2.157 [Renovate Bot]
+
 ## 3.0.12 - 2021-05-29
 
 * patch: Update internal-patch [Renovate Bot]
