@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.5 - 2021-05-29
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 3.0.4 - 2021-05-29
 
 * build(deps): bump ws from 7.4.5 to 7.4.6 [dependabot[bot]]
