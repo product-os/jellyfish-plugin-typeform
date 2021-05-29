@@ -1,4 +1,20 @@
 - commits:
+    - subject: 'build(deps): bump ws from 7.4.5 to 7.4.6'
+      hash: e091fca9e5a19c0ec5585c9587c1ead0c9fe7a2c
+      body: |
+        Bumps [ws](https://github.com/websockets/ws) from 7.4.5 to 7.4.6.
+        - [Release notes](https://github.com/websockets/ws/releases)
+        - [Commits](https://github.com/websockets/ws/compare/7.4.5...7.4.6)
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: 'dependabot[bot] <support@github.com>'
+        signed-off-by: 'dependabot[bot] <support@github.com>'
+      author: 'dependabot[bot]'
+      nested: []
+  version: 3.0.4
+  date: 2021-05-29T07:03:58.144Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^11.0.4'
       hash: 34548c359dfc1b806649e83929e04ec1d3984a3b
       body: ''

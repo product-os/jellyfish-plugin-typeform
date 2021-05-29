@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.4 - 2021-05-29
+
+* build(deps): bump ws from 7.4.5 to 7.4.6 [dependabot[bot]]
+
 ## 3.0.3 - 2021-05-29
 
 * patch: Update dependency @balena/jellyfish-plugin-default to ^11.0.4 [Renovate Bot]
