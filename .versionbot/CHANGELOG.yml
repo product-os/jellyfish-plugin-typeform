@@ -1,4 +1,17 @@
 - commits:
+    - subject: Improve lint-staged config
+      hash: 521ff8eb63e4114016286adfb5af28b724c36bfc
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.20
+  date: 2021-06-04T00:18:27.739Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 34377f2a12b70832a7668421eea9dd96999d9874
       body: ''
