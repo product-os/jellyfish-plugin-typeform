@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.21 - 2021-06-05
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 3.0.20 - 2021-06-04
 
 * Improve lint-staged config [Josh Bowling]

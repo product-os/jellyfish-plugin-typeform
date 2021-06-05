@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 164d9d7253f64ffd87608704ee00d40ad5fcf010
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.21
+  date: 2021-06-05T07:37:10.986Z
+- commits:
     - subject: Improve lint-staged config
       hash: 521ff8eb63e4114016286adfb5af28b724c36bfc
       body: ''
