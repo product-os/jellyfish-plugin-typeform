@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump jellyfish-test-harness to v3.0.47
+      hash: f404b00ce1788de2005fa18ae77fae5153bca501
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.28
+  date: 2021-06-06T02:07:52.159Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^12.0.2'
       hash: d9199b00e9d2ad7d655caa5feeda1f713f9e9e7d
       body: ''
