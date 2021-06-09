@@ -4,6 +4,6 @@ attemptsDefault: 3
 tasks:
   - name: 'typeform-translate'
     description: 'Typeform Translate Tests'
-    command: 'make test-translate'
+    command: 'npm run integration'
     cwd: '/usr/src/jellyfish'
     required: true
