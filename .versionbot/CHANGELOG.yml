@@ -1,4 +1,17 @@
 - commits:
+    - subject: Simplify development setup
+      hash: e0d4f94afc923bffe53bfe0e5a276421363c7abd
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.43
+  date: 2021-06-09T06:18:27.876Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^12.0.14'
       hash: 4d8081bb0add02fbd70e4a7801faf149a35381fc
       body: ''
