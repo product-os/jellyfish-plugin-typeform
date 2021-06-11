@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.52 - 2021-06-11
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 3.0.51 - 2021-06-11
 
 * Update docker/compose setup [Josh Bowling]

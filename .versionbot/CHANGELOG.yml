@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 2569f9ae63e420d5ab2b14f804b5bdf087ebbf54
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.52
+  date: 2021-06-11T08:05:51.937Z
+- commits:
     - subject: Update docker/compose setup
       hash: a5c89d326433af6b3c340237fe04bf606dfaf15d
       body: ''
