@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update docker/compose setup
+      hash: a5c89d326433af6b3c340237fe04bf606dfaf15d
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.51
+  date: 2021-06-11T01:56:05.337Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^13.0.1'
       hash: 09b66feeb82e2e7a84ecb5a93a06de782a798c20
       body: ''

@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.51 - 2021-06-11
+
+* Update docker/compose setup [Josh Bowling]
+
 ## 3.0.50 - 2021-06-11
 
 * patch: Update dependency @balena/jellyfish-plugin-default to ^13.0.1 [Renovate Bot]
