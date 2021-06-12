@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.55 - 2021-06-12
+
+* Bump jellyfish-plugin-default dependency [Graham McCulloch]
+
 ## 3.0.54 - 2021-06-12
 
 * patch: Update internal-patch [Renovate Bot]

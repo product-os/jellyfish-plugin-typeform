@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump jellyfish-plugin-default dependency
+      hash: 5a28027340c936def3f3a9406433692d23a6f864
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 3.0.55
+  date: 2021-06-12T02:50:35.347Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 2cdd8801c7a9b92a913830beeaec1ccdfbb33679
       body: ''
