@@ -7,7 +7,7 @@ WORKDIR /usr/src/jellyfish
 COPY package.json package-lock.json ./
 ARG NPM_TOKEN
 RUN echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc && \
-    npm ci && rm -f ~/.npmrc
+    npm ci && cat ~/.npmrc && rm -f ~/.npmrc
 
 COPY . ./
 
