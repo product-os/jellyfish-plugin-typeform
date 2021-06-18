@@ -98,3 +98,7 @@ custom.env
 # the command 'npm run doc' and committed to the root of the
 # 'docs' branch.
 docs/
+.gitsecret/keys/random_seed
+!*.secret
+.balena/secrets/integration_typeform_signature_key.txt
+.balena/secrets/npmrc.txt

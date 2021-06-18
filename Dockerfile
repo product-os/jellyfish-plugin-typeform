@@ -1,3 +1,5 @@
+# syntax=docker/dockerfile:1
+
 # This file is auto-synced from product-os/jellyfish-config/sync/Dockerfile
 # and should only be edited there!
 FROM balena/open-balena-base:v11.2.0
@@ -5,9 +7,9 @@ FROM balena/open-balena-base:v11.2.0
 WORKDIR /usr/src/jellyfish
 
 COPY package.json package-lock.json ./
-ARG NPM_TOKEN
-RUN echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc && \
-    npm ci && rm -f ~/.npmrc
+RUN --mount=type=secret,id=npmrc set -eux \
+    && ln -s /run/secrets/npmrc ~/.npmrc \
+    && npm ci && rm ~/.npmrc
 
 COPY . ./
 
