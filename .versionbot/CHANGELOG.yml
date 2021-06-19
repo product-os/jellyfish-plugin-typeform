@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 183c212418c3b27bb965c9fd705bf25c7d436587
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.74
+  date: 2021-06-19T00:37:37.719Z
+- commits:
     - subject: 'patch: Update dependency typedoc to ^0.21.0'
       hash: c8d988a3eef55a73ec0cec074826ee0349f4c48e
       body: ''
