@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^14.0.17'
+      hash: 7929fc1088c7c5b1ec46d5cc4842a687d740dda7
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.77
+  date: 2021-06-19T04:00:38.885Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.156'
       hash: 15eb8522f6fdbceb4b746c3b1086b558568dc83b
       body: ''
