@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency typedoc to ^0.21.0'
+      hash: c8d988a3eef55a73ec0cec074826ee0349f4c48e
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.73
+  date: 2021-06-19T00:23:37.668Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^14.0.14'
       hash: 326cce26f4971984c840bc18bd680af2cd23723f
       body: ''
