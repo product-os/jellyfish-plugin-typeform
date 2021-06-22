@@ -1,4 +1,35 @@
 - commits:
+    - subject: 'build(deps): bump color-string from 1.5.4 to 1.5.5'
+      hash: b4f94dd786d051dec10998e1698768538ba5db2e
+      body: >
+        Bumps [color-string](https://github.com/Qix-/color-string) from 1.5.4 to
+        1.5.5.
+
+        - [Release notes](https://github.com/Qix-/color-string/releases)
+
+        -
+        [Changelog](https://github.com/Qix-/color-string/blob/master/CHANGELOG.md)
+
+        - [Commits](https://github.com/Qix-/color-string/compare/1.5.4...1.5.5)
+
+
+        ---
+
+        updated-dependencies:
+
+        - dependency-name: color-string
+          dependency-type: indirect
+        ...
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: 'dependabot[bot] <support@github.com>'
+        signed-off-by: 'dependabot[bot] <support@github.com>'
+      author: 'dependabot[bot]'
+      nested: []
+  version: 3.0.90
+  date: 2021-06-22T23:31:12.471Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^14.1.0'
       hash: 7a4805bd7b084691dd94f9ecebff9b279e5ff3b9
       body: |
