@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.91 - 2021-06-22
+
+* patch: Update dependency @balena/jellyfish-plugin-default to ^14.1.1 [Renovate Bot]
+
 ## 3.0.90 - 2021-06-22
 
 * build(deps): bump color-string from 1.5.4 to 1.5.5 [dependabot[bot]]
