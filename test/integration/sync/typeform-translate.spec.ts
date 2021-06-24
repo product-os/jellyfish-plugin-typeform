@@ -25,7 +25,6 @@ syncIntegrationScenario.run(
 		basePath: __dirname,
 		plugins: [ActionLibrary, DefaultPlugin, ChannelsPlugin, TypeformPlugin],
 		cards: ['user-feedback'],
-		integration: require('../../../lib/integrations/typeform'),
 		scenarios: require('./webhooks/typeform'),
 		baseUrl: 'https://api.typeform.com',
 		stubRegex: /.*/,
