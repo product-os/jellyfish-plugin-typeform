@@ -70,6 +70,11 @@
     "typedoc": "^0.21.0",
     "uuid": "^8.3.2"
   },
+  "peerDependencies": {
+    "@balena/jellyfish-action-library": "^14.0.2",
+    "@balena/jellyfish-core": "^3.0.0",
+    "@balena/jellyfish-plugin-channels": "^1.1.136"
+  },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
   }
