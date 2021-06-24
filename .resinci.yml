@@ -3,6 +3,17 @@
 
 docker:
   publish: false
+  builds:
+    - path: .
+      dockerfile: Dockerfile
+      docker_repo: balena/jellyfish-ci-test
+      publish: false
+      args:
+        - BUILDKIT_INLINE_CACHE=1
+      secrets:
+        - id: npm_token
+          src: .balena/secrets/npm_token.txt
+
 npm:
   platforms:
     - name: linux

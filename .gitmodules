@@ -1,0 +1,3 @@
+[submodule ".balena/secrets"]
+	path = .balena/secrets
+	url = git@github.com:joshbwlng/secrets.git

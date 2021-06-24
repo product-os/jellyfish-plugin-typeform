@@ -1,6 +1,9 @@
 tickTimeout: 5
 retryTimeout: 120
 attemptsDefault: 1
+environment:
+  - name: 'INTEGRATION_TYPEFORM_SIGNATURE_KEY'
+    file: '/run/secrets/integration_typeform_signature_key'
 tasks:
   - name: 'integration-tests'
     description: 'Integration Tests'
