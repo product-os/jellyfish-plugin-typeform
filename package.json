@@ -46,19 +46,19 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@balena/jellyfish-plugin-base": "^2.1.163",
-    "@balena/jellyfish-plugin-default": "^15.0.5",
+    "@balena/jellyfish-plugin-default": "^15.0.7",
     "bluebird": "^3.7.2",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@balena/ci-task-runner": "^0.3.1",
     "@balena/jellycheck": "^0.1.1",
-    "@balena/jellyfish-action-library": "^14.0.2",
-    "@balena/jellyfish-config": "^1.0.6",
-    "@balena/jellyfish-core": "^3.0.0",
-    "@balena/jellyfish-plugin-channels": "^1.1.136",
-    "@balena/jellyfish-test-harness": "^4.0.0",
-    "@balena/jellyfish-types": "^0.5.116",
+    "@balena/jellyfish-action-library": "^14.0.7",
+    "@balena/jellyfish-config": "^1.3.3",
+    "@balena/jellyfish-core": "^4.0.0",
+    "@balena/jellyfish-plugin-channels": "^1.1.198",
+    "@balena/jellyfish-test-harness": "^4.0.1",
+    "@balena/jellyfish-types": "^0.7.0",
     "@balena/lint": "^6.1.1",
     "@types/jest": "^26.0.23",
     "depcheck": "^1.4.1",
@@ -71,9 +71,9 @@
     "uuid": "^8.3.2"
   },
   "peerDependencies": {
-    "@balena/jellyfish-action-library": "^14.0.2",
-    "@balena/jellyfish-core": "^3.0.0",
-    "@balena/jellyfish-plugin-channels": "^1.1.136"
+    "@balena/jellyfish-action-library": "^14.0.7",
+    "@balena/jellyfish-core": "^4.0.0",
+    "@balena/jellyfish-plugin-channels": "^1.1.198"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
