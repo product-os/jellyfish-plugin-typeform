@@ -5,6 +5,11 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.99 - 2021-06-24
+
+* Add JF peer dependencies [Josh Bowling]
+* Update test-harness call [Josh Bowling]
+
 ## 3.0.98 - 2021-06-24
 
 * patch: Update dependency @balena/jellyfish-plugin-default to ^15.0.5 [Renovate Bot]

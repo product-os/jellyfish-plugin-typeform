@@ -1,4 +1,27 @@
 - commits:
+    - subject: Add JF peer dependencies
+      hash: fc7a6b5e929ed38d2b8471fdd0cf5a2a7ec3ab1d
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Update test-harness call
+      hash: 16d9c420902cdd53d5de35d3bb11ac7eeca520a8
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.99
+  date: 2021-06-24T03:29:40.929Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^15.0.5'
       hash: e433720f11ec9735cf50e666147367479ad7dcfe
       body: ''
