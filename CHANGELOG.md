@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.115 - 2021-06-28
+
+* patch: Update dependency @balena/jellyfish-plugin-default to ^15.1.7 [Renovate Bot]
+
 ## 3.0.114 - 2021-06-27
 
 * patch: Update dependency simple-git-hooks to ^2.5.1 [Renovate Bot]
