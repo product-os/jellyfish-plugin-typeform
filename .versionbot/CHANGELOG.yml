@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^15.3.0'
+      hash: 5364e6a260b899e244f029f14afb3d854d1a7059
+      body: |
+        Update @balena/jellyfish-plugin-default from 15.2.0 to 15.3.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.120
+  date: 2021-06-29T10:26:14.476Z
+- commits:
     - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
       hash: 5cee352834e3a0e21e4de2ff8602b5cf1d916ef7
       body: ''
