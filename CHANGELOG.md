@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.119 - 2021-06-29
+
+* 🔄 Synced file(s) with product-os/jellyfish-config [jellyfish-bot]
+
 ## 3.0.118 - 2021-06-29
 
 * Remove package-lock.json from Dockerfile [Josh Bowling]
