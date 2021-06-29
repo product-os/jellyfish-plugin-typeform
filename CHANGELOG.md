@@ -5,6 +5,12 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.118 - 2021-06-29
+
+* Remove package-lock.json from Dockerfile [Josh Bowling]
+* Bump node engines specification [Josh Bowling]
+* Remove package-lock.json [Josh Bowling]
+
 ## 3.0.117 - 2021-06-29
 
 * patch: Update dependency @balena/jellyfish-plugin-default to ^15.2.0 [Renovate Bot]
