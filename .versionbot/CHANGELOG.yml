@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 2caba4b7b51fb6c021498db6cdb4ec1a4d14a2d8
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.134
+  date: 2021-07-02T07:11:53.444Z
+- commits:
     - subject: Remove console.log statement
       hash: 192a56f217df11dfa67d01a572e521d2765f7081
       body: ''
