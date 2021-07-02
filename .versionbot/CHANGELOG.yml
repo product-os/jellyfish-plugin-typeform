@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove console.log statement
+      hash: 192a56f217df11dfa67d01a572e521d2765f7081
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 3.0.133
+  date: 2021-07-02T04:29:51.302Z
+- commits:
     - subject: Replace ci-task-runner with go-task
       hash: 57cd6679116e35aab96df45ccea967079a443ab4
       body: ''
