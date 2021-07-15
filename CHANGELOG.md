@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.170 - 2021-07-15
+
+* patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.196 [Renovate Bot]
+
 ## 3.0.169 - 2021-07-14
 
 * patch: Update dependency @balena/jellyfish-plugin-default to ^18.1.0 [Renovate Bot]
