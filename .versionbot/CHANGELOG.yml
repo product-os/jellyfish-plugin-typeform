@@ -1,4 +1,26 @@
 - commits:
+    - subject: Update plugin-default imports
+      hash: a50a060a9779269ec7cb04dad5a77598b604e153
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to v19'
+      hash: fcf5b1056bf3461c822afac61dfd874a9b7c0884
+      body: |
+        Update @balena/jellyfish-plugin-default from 18.2.0 to 19.0.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.172
+  date: 2021-07-16T00:25:01.536Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^18.2.0'
       hash: 861930ef45a90f9c51b553bc1e13e205f3b5ddc3
       body: |
