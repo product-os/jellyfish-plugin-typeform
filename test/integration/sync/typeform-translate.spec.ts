@@ -4,14 +4,11 @@
  * Proprietary and confidential.
  */
 
-// tslint:disable: no-var-requires
 import { syncIntegrationScenario } from '@balena/jellyfish-test-harness';
 import ActionLibrary from '@balena/jellyfish-action-library';
 import { ChannelsPlugin } from '@balena/jellyfish-plugin-channels';
+import { DefaultPlugin } from '@balena/jellyfish-plugin-default';
 import { TypeformPlugin } from '../../../lib';
-
-// TS-TODO: Update import once plugin-default is converted to TypeScript
-const DefaultPlugin = require('@balena/jellyfish-plugin-default');
 
 syncIntegrationScenario.run(
 	{

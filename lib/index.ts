@@ -4,13 +4,10 @@
  * Proprietary and confidential.
  */
 
-// tslint:disable: no-var-requires
 import { JellyfishPluginBase } from '@balena/jellyfish-plugin-base';
+import { cardMixins } from '@balena/jellyfish-plugin-default';
 import cards from './cards';
 import integrations from './integrations';
-
-// TS-TODO: don't load mixins with a deep import
-const defaultPluginMixins = require('@balena/jellyfish-plugin-default/lib/cards/mixins');
 
 /**
  * The Typeform Jellyfish plugin.
@@ -22,12 +19,12 @@ export class TypeformPlugin extends JellyfishPluginBase {
 			name: 'Typeform Plugin',
 			version: '1.0.0',
 			cards,
-			mixins: defaultPluginMixins,
+			mixins: cardMixins,
 			integrations,
 			requires: [
 				{
 					slug: 'jellyfish-plugin-default',
-					version: '>=5.x',
+					version: '>=19.x',
 				},
 				{
 					slug: 'jellyfish-plugin-channels',
