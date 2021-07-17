@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.177 - 2021-07-17
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 3.0.176 - 2021-07-17
 
 * Remove whitesource config [Josh Bowling]
