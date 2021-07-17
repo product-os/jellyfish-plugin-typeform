@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove whitesource config
+      hash: 77c038654ae37d1abe1db38f9e97c6550653a6fc
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.176
+  date: 2021-07-17T01:12:28.640Z
+- commits:
     - subject: 'patch: Update external-non-major'
       hash: 2b2cb9c2e6a55615f2902050822ec3c54e82cb64
       body: ''
