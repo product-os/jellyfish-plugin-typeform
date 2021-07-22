@@ -1,4 +1,15 @@
 - commits:
+    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+      hash: 9b7fdb4977f172809cd45654c840ee9d941133a1
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: jellyfish-bot
+      nested: []
+  version: 3.0.180
+  date: 2021-07-21T05:55:41.546Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^19.2.0'
       hash: dec93830f8a171f95dabf84fe70a2380c00f0344
       body: |
