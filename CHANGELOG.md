@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.205 - 2021-08-04
+
+* use balena convention for npm script names [Martin Rauscher]
+
 ## 3.0.204 - 2021-08-01
 
 * patch: Update dependency @balena/jellyfish-plugin-default to ^19.5.9 [Renovate Bot]
