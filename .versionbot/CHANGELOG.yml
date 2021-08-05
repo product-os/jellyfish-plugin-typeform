@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update test command in README
+      hash: e5a1739f508420c85ad05528cd2f0f6fa3107e27
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.208
+  date: 2021-08-05T04:30:42.062Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 0cda186adee7390660268d52844979e7ec6c511b
       body: ''

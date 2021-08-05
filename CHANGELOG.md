@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.208 - 2021-08-05
+
+* Update test command in README [Josh Bowling]
+
 ## 3.0.207 - 2021-08-05
 
 * patch: Update internal-patch [Renovate Bot]
