@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.211 - 2021-08-06
+
+* Add compose up command, more test docs [Josh Bowling]
+
 ## 3.0.210 - 2021-08-05
 
 * patch: Update dependency @balena/jellyfish-plugin-default to ^19.6.0 [Renovate Bot]

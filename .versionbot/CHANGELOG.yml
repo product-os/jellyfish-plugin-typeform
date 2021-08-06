@@ -1,4 +1,17 @@
 - commits:
+    - subject: 'Add compose up command, more test docs'
+      hash: 2d63db548ad1f8fdf556bb99ea602daeead9e3db
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.211
+  date: 2021-08-06T00:33:04.965Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^19.6.0'
       hash: 7a6896761a76d7d71c55e93e3832daf7d847158d
       body: |
