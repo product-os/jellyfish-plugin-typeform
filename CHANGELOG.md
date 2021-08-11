@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.221 - 2021-08-11
+
+* Only disable internal patch bumps [Josh Bowling]
+
 ## 3.0.220 - 2021-08-10
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.222 [Renovate Bot]
