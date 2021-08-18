@@ -38,7 +38,7 @@
     "test": "npm run lint && npm run test:unit",
     "test:unit": "jest test/unit",
     "test:integration": "jest ./test/integration/sync/typeform-translate.spec.ts",
-    "test:compose": "docker-compose -f docker-compose.test.yml -f docker-compose.yml up --build --exit-code-from=sut",
+    "test:compose": "DOCKER_BUILDKIT=1 docker build -t jellyfish-plugin-typeform_sut:latest --secret id=npmrc,src=.balena/secrets/npmrc.txt . && docker-compose -f docker-compose.test.yml -f docker-compose.yml up --exit-code-from=sut",
     "doc": "typedoc lib/ && touch docs/.nojekyll",
     "prepack": "npm run build",
     "check": "jellycheck",
@@ -77,7 +77,7 @@
     "@balena/jellyfish-plugin-channels": "^1.1.198"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx lint-staged"
+    "pre-commit": "npx lint-staged && git secret hide"
   },
   "versionist": {
     "publishedAt": "2021-08-17T15:59:31.198Z"

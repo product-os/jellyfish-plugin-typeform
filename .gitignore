@@ -103,3 +103,8 @@ docs/
 # This is just a fail-safe to ensure that if they are generated
 # they are still ignored and not committed.
 package-lock.json
+
+# Decrypted secret files
+.balena/secrets/npmrc.txt
+.balena/secrets/npm_token.txt
+.balena/secrets/integration_typeform_signature_key.txt
