@@ -6,7 +6,7 @@ docker:
   builds:
     - path: .
       dockerfile: Dockerfile
-      docker_repo: balena/jellyfish-ci-test
+      docker_repo: balena/jellyfish-plugin-typeform_sut
       publish: false
       args:
         - BUILDKIT_INLINE_CACHE=1

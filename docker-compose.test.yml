@@ -5,7 +5,7 @@ version: '2.1'
 
 services:
   sut:
-    image: jellyfish-plugin-typeform_sut:latest
+    image: balena/jellyfish-plugin-typeform_sut:latest
     build:
       context: .
       dockerfile: Dockerfile
