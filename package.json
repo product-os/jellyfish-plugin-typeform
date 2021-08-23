@@ -1,7 +1,7 @@
 {
   "name": "@balena/jellyfish-plugin-typeform",
   "description": "Typeform Jellyfish Plugin",
-  "version": "3.0.244",
+  "version": "3.0.245",
   "repository": {
     "type": "git",
     "url": "https://github.com/product-os/jellyfish-plugin-typeform.git"
@@ -80,6 +80,6 @@
     "pre-commit": "npx lint-staged && git secret hide"
   },
   "versionist": {
-    "publishedAt": "2021-08-22T04:44:41.206Z"
+    "publishedAt": "2021-08-23T06:55:52.352Z"
   }
 }
