@@ -5,6 +5,11 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.246 - 2021-08-23
+
+* Add new secrets to gitignore [Josh Bowling]
+* 🔄 Synced file(s) with product-os/secrets [joshbwlng]
+
 ## 3.0.245 - 2021-08-23
 
 * Bump internal dev dependencies [Josh Bowling]
