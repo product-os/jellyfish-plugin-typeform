@@ -1,4 +1,25 @@
 - commits:
+    - subject: Add decrypted Front and Intercom secrets to gitignore
+      hash: 005db06873d7515dad9e53c61b5e18026258de26
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+      hash: 426323a3a676f1b08dc51a1c183a25e90be15519
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 3.0.249
+  date: 2021-08-30T02:24:00.413Z
+- commits:
     - subject: Add github secrets to gitignore
       hash: dea9d1683335682e73ac5a08272fe245435affed
       body: ''

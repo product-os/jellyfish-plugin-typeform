@@ -5,6 +5,11 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.249 - 2021-08-30
+
+* Add decrypted Front and Intercom secrets to gitignore [Josh Bowling]
+* 🔄 Synced file(s) with product-os/secrets [joshbwlng]
+
 ## 3.0.248 - 2021-08-24
 
 * Add github secrets to gitignore [Josh Bowling]
