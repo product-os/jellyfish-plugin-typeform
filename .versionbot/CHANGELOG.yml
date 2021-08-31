@@ -1,4 +1,25 @@
 - commits:
+    - subject: Ignore decrypted Discourse secrets
+      hash: b3c0210204a884082ccf81775d732aeb513f8ecf
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+      hash: 56e7b5759fe45de66c1741a01fee0fe72604e623
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 3.0.250
+  date: 2021-08-31T07:00:00.486Z
+- commits:
     - subject: Add decrypted Front and Intercom secrets to gitignore
       hash: 005db06873d7515dad9e53c61b5e18026258de26
       body: ''
