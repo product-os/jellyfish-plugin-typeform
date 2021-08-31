@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.251 - 2021-08-31
+
+* patch: Update dependency @balena/jellyfish-core to ^5.2.0 [Renovate Bot]
+
 ## 3.0.250 - 2021-08-31
 
 * Ignore decrypted Discourse secrets [Josh Bowling]
