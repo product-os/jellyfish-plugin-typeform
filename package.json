@@ -48,7 +48,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@balena/jellyfish-plugin-base": "^2.1.239",
-    "@balena/jellyfish-plugin-default": "^21.0.7",
+    "@balena/jellyfish-plugin-default": "^21.0.8",
     "bluebird": "^3.7.2",
     "lodash": "^4.17.21"
   },
