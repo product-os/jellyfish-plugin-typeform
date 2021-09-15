@@ -58,7 +58,7 @@
     "@balena/jellyfish-config": "^1.4.8",
     "@balena/jellyfish-core": "^6.1.1",
     "@balena/jellyfish-plugin-channels": "^1.1.271",
-    "@balena/jellyfish-test-harness": "^7.2.3",
+    "@balena/jellyfish-test-harness": "^7.3.1",
     "@balena/jellyfish-types": "^1.1.0",
     "@balena/lint": "^6.1.1",
     "@types/jest": "^27.0.1",
