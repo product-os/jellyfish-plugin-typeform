@@ -5,6 +5,11 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.304 - 2021-09-26
+
+* Ignore decrypted mailgun and meet secrets [Josh Bowling]
+* 🔄 Synced file(s) with product-os/secrets [joshbwlng]
+
 ## 3.0.303 - 2021-09-25
 
 * patch: Update dependency @balena/jellyfish-plugin-default to ^21.1.19 [Renovate Bot]
