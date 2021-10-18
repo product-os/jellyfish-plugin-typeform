@@ -1,4 +1,15 @@
 - commits:
+    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+      hash: 74661dd8a52f798480240c018a760d5514c83202
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 3.0.306
+  date: 2021-10-18T04:17:28.433Z
+- commits:
     - subject: 'Bring back test.env, update test:compose'
       hash: c0c58d21179aab6893207fc44e0131a47466c4cb
       body: ''

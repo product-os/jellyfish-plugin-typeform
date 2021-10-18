@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.306 - 2021-10-18
+
+* 🔄 Synced file(s) with product-os/secrets [joshbwlng]
+
 ## 3.0.305 - 2021-10-04
 
 * Bring back test.env, update test:compose [Josh Bowling]
