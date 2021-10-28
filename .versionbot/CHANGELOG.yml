@@ -1,4 +1,27 @@
 - commits:
+    - subject: Remove test debug log
+      hash: 19a7ea4b2bb48cd25d4e70ebef9d9b03eee993ba
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Use named variables for exports
+      hash: e7cb3c04f9406329d5ed6c0665eb6727867b3ba9
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.327
+  date: 2021-10-28T01:40:00.248Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^21.1.60'
       hash: a6493f93bdadcb79af72366053e333e81d5b5c47
       body: ''

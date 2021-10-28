@@ -5,6 +5,11 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.327 - 2021-10-28
+
+* Remove test debug log [Josh Bowling]
+* Use named variables for exports [Josh Bowling]
+
 ## 3.0.326 - 2021-10-24
 
 * patch: Update dependency @balena/jellyfish-plugin-default to ^21.1.60 [Renovate Bot]
