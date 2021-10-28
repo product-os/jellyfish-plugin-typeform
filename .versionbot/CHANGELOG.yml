@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellycheck to ^0.1.4'
+      hash: b39f37e45a0d465106cd67b6841bbc8f514ef216
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.328
+  date: 2021-10-28T01:56:09.107Z
+- commits:
     - subject: Remove test debug log
       hash: 19a7ea4b2bb48cd25d4e70ebef9d9b03eee993ba
       body: ''
