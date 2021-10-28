@@ -6,7 +6,7 @@
 
 import { JellyfishPluginBase } from '@balena/jellyfish-plugin-base';
 import { cardMixins } from '@balena/jellyfish-plugin-default';
-import cards from './cards';
+import { cards } from './cards';
 import integrations from './integrations';
 
 /**
