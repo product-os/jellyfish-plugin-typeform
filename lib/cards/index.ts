@@ -7,4 +7,4 @@
 import channelUserFeedback from './channel-user-feedback';
 import userFeedback from './user-feedback';
 
-export default [channelUserFeedback, userFeedback];
+export const cards = [channelUserFeedback, userFeedback];

@@ -14,7 +14,6 @@ const context = {
 const plugin = new TypeformPlugin();
 
 test('Expected cards are loaded', () => {
-	console.log(coreMixins);
 	const cards = plugin.getCards(context, coreMixins);
 
 	// Sanity check
