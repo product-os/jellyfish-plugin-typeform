@@ -1,4 +1,15 @@
 - commits:
+    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+      hash: 9682fb4d5f07e322d435dfa843919733088559b5
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 3.0.337
+  date: 2021-10-30T13:25:08.667Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: cca4a9bec11187c4f0581e58f0c1cbd72d9eed8c
       body: ''
