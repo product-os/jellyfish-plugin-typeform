@@ -6,7 +6,7 @@ Provides a sync integration and a channel for working with user feedback from Ty
 
 Below is an example how to use this library:
 
-```js
+```typescript
 import { cardMixins } from '@balena/jellyfish-core';
 import TypeformPlugin from '@balena/jellyfish-plugin-typeform';
 
