@@ -1,4 +1,25 @@
 - commits:
+    - subject: Update secrets
+      hash: 7c32d23ac5b5d31800962d96f8cd226fcae2c7c4
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+      hash: 33b53fe5a27cf981e8e27a9deab44eb40f8ef0b5
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 3.0.352
+  date: 2021-11-13T06:29:38.649Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 365906dc8b3eabce78d8abda66559f476841b99e
       body: ''
