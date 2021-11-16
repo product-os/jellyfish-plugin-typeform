@@ -45,7 +45,7 @@
     "compose": "docker-compose up"
   },
   "author": "Balena.io. <hello@balena.io>",
-  "license": "UNLICENSED",
+  "license": "AGPL-3.0",
   "dependencies": {
     "@balena/jellyfish-plugin-base": "^2.1.285",
     "@balena/jellyfish-plugin-default": "^21.1.87",
