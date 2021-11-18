@@ -1,4 +1,17 @@
 - commits:
+    - subject: Set license
+      hash: b03a39f6f45aeed7b2f217b9fe446cf779ce9496
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.360
+  date: 2021-11-18T02:43:20.932Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^21.1.87'
       hash: 9a045f532c1e98536119d5091bd37f213607281b
       body: ''
