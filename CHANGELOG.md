@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.365 - 2021-11-22
+
+* patch: Update dependency lint-staged to ^12.1.1 [Renovate Bot]
+
 ## 3.0.364 - 2021-11-21
 
 * Remove license headers [Josh Bowling]
