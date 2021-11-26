@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.381 - 2021-11-26
+
+* Use product-os/renovate-config [Josh Bowling]
+
 ## 3.0.380 - 2021-11-25
 
 * patch: Update dependency @balena/jellyfish-plugin-default to ^21.1.107 [Renovate Bot]
