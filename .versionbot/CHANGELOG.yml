@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 8625f1bfa91cc656833edbab439c3f408f439189
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 3.0.408
+  date: 2021-12-05T17:25:27.426Z
+- commits:
     - subject: Drop local.env
       hash: 8b4f4b0ba45ecb70534bf88decab5859b250e418
       body: ''
