@@ -1,4 +1,17 @@
 - commits:
+    - subject: Drop local.env
+      hash: 8b4f4b0ba45ecb70534bf88decab5859b250e418
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.407
+  date: 2021-12-05T05:10:21.521Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: b137d30f64ff89b795822c31915b6222f81c4b0d
       body: ''

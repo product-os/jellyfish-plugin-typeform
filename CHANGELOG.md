@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 3.0.407 - 2021-12-05
+
+* Drop local.env [Josh Bowling]
+
 ## 3.0.406 - 2021-12-04
 
 * patch: Update internal-patch [Renovate Bot]
