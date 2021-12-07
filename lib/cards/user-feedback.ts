@@ -62,27 +62,42 @@ export default function ({
 							},
 							curatedOrigin: {
 								title: 'Curated Origin',
-								type: 'string',
+								type: 'array',
+								items: {
+									type: 'string',
+								},
 								fullTextSearch: true,
 							},
 							originDetail: {
 								title: 'Curated Origin Detail',
-								type: 'string',
+								type: 'array',
+								items: {
+									type: 'string',
+								},
 								fullTextSearch: true,
 							},
 							role: {
 								title: 'Curated Role',
-								type: 'string',
+								type: 'array',
+								items: {
+									type: 'string',
+								},
 								fullTextSearch: true,
 							},
 							useCaseSegment: {
 								title: 'Curated Use Case Segment',
-								type: 'string',
+								type: 'array',
+								items: {
+									type: 'string',
+								},
 								fullTextSearch: true,
 							},
 							useCaseDetail: {
 								title: 'Curated Use Case Detail',
-								type: 'string',
+								type: 'array',
+								items: {
+									type: 'string',
+								},
 								fullTextSearch: true,
 							},
 							experienceEvaluation: {
@@ -99,12 +114,18 @@ export default function ({
 							},
 							issuesWants: {
 								title: 'Curated Issues/Wants',
-								type: 'string',
+								type: 'array',
+								items: {
+									type: 'string',
+								},
 								fullTextSearch: true,
 							},
 							highlights: {
 								title: 'Curated Highlights',
-								type: 'string',
+								type: 'array',
+								items: {
+									type: 'string',
+								},
 								fullTextSearch: true,
 							},
 						},
@@ -161,52 +182,66 @@ export default function ({
 								'*',
 							],
 							curatedOrigin: {
-								'ui:widget': 'AutoCompleteWidget',
-								'ui:options': {
-									resource: 'user-feedback',
-									keyPath: 'data.curatedOrigin',
+								items: {
+									'ui:widget': 'AutoCompleteWidget',
+									'ui:options': {
+										resource: 'user-feedback',
+										keyPath: 'data.curatedOrigin',
+									},
 								},
 							},
 							originDetail: {
-								'ui:widget': 'AutoCompleteWidget',
-								'ui:options': {
-									resource: 'user-feedback',
-									keyPath: 'data.originDetail',
+								items: {
+									'ui:widget': 'AutoCompleteWidget',
+									'ui:options': {
+										resource: 'user-feedback',
+										keyPath: 'data.originDetail',
+									},
 								},
 							},
 							role: {
-								'ui:widget': 'AutoCompleteWidget',
-								'ui:options': {
-									resource: 'user-feedback',
-									keyPath: 'data.role',
+								items: {
+									'ui:widget': 'AutoCompleteWidget',
+									'ui:options': {
+										resource: 'user-feedback',
+										keyPath: 'data.role',
+									},
 								},
 							},
 							useCaseSegment: {
-								'ui:widget': 'AutoCompleteWidget',
-								'ui:options': {
-									resource: 'user-feedback',
-									keyPath: 'data.useCaseSegment',
+								items: {
+									'ui:widget': 'AutoCompleteWidget',
+									'ui:options': {
+										resource: 'user-feedback',
+										keyPath: 'data.useCaseSegment',
+									},
 								},
 							},
 							useCaseDetail: {
-								'ui:widget': 'AutoCompleteWidget',
-								'ui:options': {
-									resource: 'user-feedback',
-									keyPath: 'data.useCaseDetail',
+								items: {
+									'ui:widget': 'AutoCompleteWidget',
+									'ui:options': {
+										resource: 'user-feedback',
+										keyPath: 'data.useCaseDetail',
+									},
 								},
 							},
 							issuesWants: {
-								'ui:widget': 'AutoCompleteWidget',
-								'ui:options': {
-									resource: 'user-feedback',
-									keyPath: 'data.issuesWants',
+								items: {
+									'ui:widget': 'AutoCompleteWidget',
+									'ui:options': {
+										resource: 'user-feedback',
+										keyPath: 'data.issuesWants',
+									},
 								},
 							},
 							highlights: {
-								'ui:widget': 'AutoCompleteWidget',
-								'ui:options': {
-									resource: 'user-feedback',
-									keyPath: 'data.highlights',
+								items: {
+									'ui:widget': 'AutoCompleteWidget',
+									'ui:options': {
+										resource: 'user-feedback',
+										keyPath: 'data.highlights',
+									},
 								},
 							},
 						},
