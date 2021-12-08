@@ -1,6 +1,5 @@
 import _ from 'lodash';
 import crypto from 'crypto';
-import Bluebird from 'bluebird';
 import type {
 	Contract,
 	ContractData,
@@ -27,11 +26,11 @@ module.exports = class TypeformIntegration implements Integration {
 	}
 
 	async initialize() {
-		return Bluebird.resolve();
+		return Promise.resolve();
 	}
 
 	async destroy() {
-		return Bluebird.resolve();
+		return Promise.resolve();
 	}
 
 	// TS-TODO: Use proper types
