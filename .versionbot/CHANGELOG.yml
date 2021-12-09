@@ -1,4 +1,17 @@
 - commits:
+    - subject: Allow arrays of strings in curated fields on user-feedback contract
+      hash: b94962d9bfae4629bd601db3ef265ed82ccd3246
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 4.0.0
+  date: 2021-12-09T09:00:09.883Z
+- commits:
     - subject: Remove Bluebird
       hash: 67c065e2a7b4afd0c281a087bdd9672d8373fa5e
       body: ''

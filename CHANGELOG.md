@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 4.0.0 - 2021-12-09
+
+* Allow arrays of strings in curated fields on user-feedback contract [Lucian Buzzo]
+
 ## 3.0.413 - 2021-12-09
 
 * Remove Bluebird [Josh Bowling]
