@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove Bluebird
+      hash: 67c065e2a7b4afd0c281a087bdd9672d8373fa5e
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.413
+  date: 2021-12-09T08:20:07.714Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^21.1.143'
       hash: ed9961fc4fe4b955c1b8bc144b31776b9d588371
       body: ''
