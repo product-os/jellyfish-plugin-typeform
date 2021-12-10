@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.321'
+      hash: f920937a70687438e858abecf13f2bee8f162247
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 4.0.1
+  date: 2021-12-10T03:21:49.825Z
+- commits:
     - subject: Allow arrays of strings in curated fields on user-feedback contract
       hash: b94962d9bfae4629bd601db3ef265ed82ccd3246
       body: ''
