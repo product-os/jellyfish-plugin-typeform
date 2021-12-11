@@ -1,4 +1,25 @@
 - commits:
+    - subject: 'patch: Update resinci/jellyfish-test Docker tag to v1.4.16'
+      hash: 4b659f22d4eb3b3af5932a827f7a2c2d3960ac63
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Bump internal dependencies
+      hash: 12a273639ad898ac99488c405fe5cf6eb4862373
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 4.0.4
+  date: 2021-12-11T09:42:59.983Z
+- commits:
     - subject: 'patch: Update external-non-major'
       hash: 1706d633f4f0323af0d06b717f6a69b016240b72
       body: ''
