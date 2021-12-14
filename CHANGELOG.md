@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 4.0.8 - 2021-12-14
+
+* Load default mixins from plugin base instead of another plugin [Lucian Buzzo]
+
 ## 4.0.7 - 2021-12-14
 
 * patch: Update internal-patch [Renovate Bot]

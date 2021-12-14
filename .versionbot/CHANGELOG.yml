@@ -1,4 +1,17 @@
 - commits:
+    - subject: Load default mixins from plugin base instead of another plugin
+      hash: 809b77303ed1c35d688dcb60bda09c318dfc4e26
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 4.0.8
+  date: 2021-12-14T15:58:24.318Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: e899161a71631ea08b3772c4a2edf8ddf1aaf824
       body: ''
