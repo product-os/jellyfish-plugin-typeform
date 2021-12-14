@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 4.0.9 - 2021-12-14
+
+* patch: Update dependency @balena/jellyfish-plugin-base to ^2.2.1 [Renovate Bot]
+
 ## 4.0.8 - 2021-12-14
 
 * Load default mixins from plugin base instead of another plugin [Lucian Buzzo]

@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.2.1'
+      hash: b5b85b7b20eca8b305d89d484ab84d9dbf2929b7
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 4.0.9
+  date: 2021-12-14T16:23:33.610Z
+- commits:
     - subject: Load default mixins from plugin base instead of another plugin
       hash: 809b77303ed1c35d688dcb60bda09c318dfc4e26
       body: ''
