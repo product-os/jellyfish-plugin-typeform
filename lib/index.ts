@@ -1,5 +1,4 @@
 import { JellyfishPluginBase } from '@balena/jellyfish-plugin-base';
-import { cardMixins } from '@balena/jellyfish-plugin-default';
 import { cards } from './cards';
 import integrations from './integrations';
 
@@ -13,7 +12,6 @@ export class TypeformPlugin extends JellyfishPluginBase {
 			name: 'Typeform Plugin',
 			version: '1.0.0',
 			cards,
-			mixins: cardMixins,
 			integrations,
 			requires: [
 				{
