@@ -1,4 +1,37 @@
 - commits:
+    - subject: Remove dev peer deps
+      hash: e6793fc700849381fed54cd985e0d565b1036086
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Bump jellyfish-core to v11.1.3
+      hash: b3afcd0df921c0eaeb14d380b9851002dbcbcde8
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Bump jellyfish-plugin-channels to v1.1.432
+      hash: 30064216b926459e353f26a99637290b90a4d494
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 4.0.23
+  date: 2022-01-03T03:31:11.997Z
+- commits:
     - subject: 'patch: Update dependency lint-staged to ^12.1.5'
       hash: ad822345ed09de5a3bbed6f6d376cdbacd325347
       body: ''
