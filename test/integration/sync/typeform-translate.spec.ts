@@ -1,7 +1,7 @@
-import { syncIntegrationScenario } from '@balena/jellyfish-test-harness';
-import ActionLibrary from '@balena/jellyfish-action-library';
+import { ActionLibrary } from '@balena/jellyfish-action-library';
 import { ChannelsPlugin } from '@balena/jellyfish-plugin-channels';
 import { DefaultPlugin } from '@balena/jellyfish-plugin-default';
+import { syncIntegrationScenario } from '@balena/jellyfish-test-harness';
 import { TypeformPlugin } from '../../../lib';
 
 syncIntegrationScenario.run(
