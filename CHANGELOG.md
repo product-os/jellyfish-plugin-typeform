@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 4.0.27 - 2022-01-06
+
+* Bump test-harness to v9.1.11 [Josh Bowling]
+
 ## 4.0.26 - 2022-01-04
 
 * Update action-library import [Josh Bowling]

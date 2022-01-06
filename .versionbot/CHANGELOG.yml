@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump test-harness to v9.1.11
+      hash: 61469c4b7664e283b2f489d7b8f9d62ffb38495e
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 4.0.27
+  date: 2022-01-06T05:50:04.962Z
+- commits:
     - subject: Update action-library import
       hash: 610c383a5526fec8cb15f0e399f834d085650d0e
       body: ''
