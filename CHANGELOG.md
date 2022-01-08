@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 4.0.29 - 2022-01-08
+
+* patch: Update external-non-major [Renovate Bot]
+
 ## 4.0.28 - 2022-01-06
 
 * patch: Update dependency @balena/jellyfish-test-harness to ^9.2.0 [Renovate Bot]
