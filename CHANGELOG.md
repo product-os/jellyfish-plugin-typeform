@@ -5,6 +5,11 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 4.0.42 - 2022-01-28
+
+* 🔄 Synced file(s) with product-os/secrets [joshbwlng]
+* Update balena/balena-redis Docker tag to v0.0.4 [Renovate Bot]
+
 ## 4.0.41 - 2022-01-26
 
 * Update external-non-major [Renovate Bot]
