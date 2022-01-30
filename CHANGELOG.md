@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.0.0 - 2022-01-30
+
+* Switch to worker [Josh Bowling]
+
 ## 4.0.44 - 2022-01-29
 
 * Update dependencies (internal patch bumps) [Renovate Bot]

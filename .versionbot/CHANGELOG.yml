@@ -1,4 +1,19 @@
 - commits:
+    - subject: Switch to worker
+      hash: 16edf15cd07c0f9a00cfd99cd61013a3ea95468a
+      body: |
+        Switch from plugin-base and test-harness to worker
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 5.0.0
+  title: Switch to worker
+  date: 2022-01-30T23:04:07.602Z
+- commits:
     - subject: Update dependencies (internal patch bumps)
       hash: c075093d5582ed25a5e91d065dc9f6a6eafcc7ac
       body: ""
