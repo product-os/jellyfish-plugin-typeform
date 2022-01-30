@@ -1,4 +1,6 @@
-export default {
+import type { ContractDefinition } from '@balena/jellyfish-types/build/core';
+
+export const channelUserFeedback: ContractDefinition = {
 	slug: 'channel-user-feedback',
 	name: 'User Feedback',
 	type: 'channel@1.0.0',
