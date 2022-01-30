@@ -1,23 +1,20 @@
-import _ from 'lodash';
-import crypto from 'crypto';
-import type {
-	Contract,
-	ContractData,
-} from '@balena/jellyfish-types/build/core';
+import type { Contract } from '@balena/jellyfish-types/build/core';
 import type {
 	Integration,
-	IntegrationResult,
-} from '@balena/jellyfish-plugin-base';
+	IntegrationDefinition,
+	SequenceItem,
+} from '@balena/jellyfish-worker';
+import crypto from 'crypto';
+import _ from 'lodash';
 
 const SLUG = 'typeform';
 
-// TS-TODO: Don't export with module.exports
-module.exports = class TypeformIntegration implements Integration {
+export class TypeformIntegration implements Integration {
 	public slug = SLUG;
 
 	// TS-TODO: Use proper types
-	public options: any;
 	public context: any;
+	public options: any;
 
 	// TS-TODO: Use proper types
 	constructor(options: any) {
@@ -25,28 +22,25 @@ module.exports = class TypeformIntegration implements Integration {
 		this.context = this.options.context;
 	}
 
-	async initialize() {
+	public async destroy() {
 		return Promise.resolve();
 	}
 
-	async destroy() {
-		return Promise.resolve();
-	}
-
-	// TS-TODO: Use proper types
-	async mirror(_card: Contract, _options: any) {
+	public async mirror(_contract: Contract, _options: { actor: string }) {
 		return [];
 	}
 
-	// TS-TODO: Use proper types
-	async translate(event: any): Promise<Array<IntegrationResult<ContractData>>> {
+	public async translate(
+		event: Contract,
+		_options: { actor: string },
+	): Promise<SequenceItem[]> {
 		if (!this.options.token || !this.options.token.signature) {
 			return [];
 		}
 		const adminActorId = await this.context.getActorId({
 			handle: this.options.defaultUser,
 		});
-		const formResponse = event.data.payload.form_response;
+		const formResponse = (event.data.payload as any).form_response;
 		const formId = formResponse.form_id;
 		const responseId = formResponse.token;
 		const cardSlug = `user-feedback-${formId}-${responseId}`;
@@ -110,21 +104,20 @@ module.exports = class TypeformIntegration implements Integration {
 			},
 		];
 	}
+}
+
+export const typeformIntegrationDefinition: IntegrationDefinition = {
+	initialize: async (options) => new TypeformIntegration(options),
+	isEventValid: (token, rawEvent, headers) => {
+		const signature = headers['typeform-signature'];
+		if (!signature || !token || !token.signature) {
+			return false;
+		}
+
+		const hash = crypto
+			.createHmac('sha256', token.signature)
+			.update(rawEvent)
+			.digest('base64');
+		return signature === `sha256=${hash}`;
+	},
 };
-
-// TS-TODO: Don't export with module.exports, use proper types
-module.exports.isEventValid = (token: any, rawEvent: any, headers: any) => {
-	const signature = headers['typeform-signature'];
-	if (!signature || !token || !token.signature) {
-		return false;
-	}
-
-	const hash = crypto
-		.createHmac('sha256', token.signature)
-		.update(rawEvent)
-		.digest('base64');
-	return signature === `sha256=${hash}`;
-};
-
-// TS-TODO: Don't export with module.exports
-module.exports.slug = SLUG;
