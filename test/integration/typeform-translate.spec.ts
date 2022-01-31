@@ -68,13 +68,6 @@ describe('translate logic works as expected', () => {
 					},
 					{
 						source: 'typeform',
-						options: {
-							logContext: ctx.logContext,
-							session: ctx.kernel.adminSession()!,
-							actor: ctx.adminUserId,
-						},
-					},
-					{
 						baseUrl: 'https://api.typeform.com',
 						uriPath: /.*/,
 						basePath: path.join(__dirname, 'webhooks'),
