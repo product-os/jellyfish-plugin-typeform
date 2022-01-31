@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.0.1 - 2022-01-31
+
+* Update @balena/jellyfish-worker from 16.3.0 to 17.0.0 [Josh Bowling]
+
 ## 5.0.0 - 2022-01-30
 
 * Switch to worker [Josh Bowling]
