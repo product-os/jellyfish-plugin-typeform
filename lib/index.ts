@@ -18,7 +18,7 @@ export const typeformPlugin = (): PluginDefinition => {
 		requires: [
 			{
 				slug: 'plugin-default',
-				version: '>=22.x',
+				version: '>=23.x',
 			},
 			{
 				slug: 'plugin-channels',
