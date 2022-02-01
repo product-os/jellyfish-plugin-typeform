@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.0.2 - 2022-01-31
+
+* Update resinci/jellyfish-test Docker tag to v1.4.22 [Renovate Bot]
+
 ## 5.0.1 - 2022-01-31
 
 * Update @balena/jellyfish-worker from 16.3.0 to 17.0.0 [Josh Bowling]
