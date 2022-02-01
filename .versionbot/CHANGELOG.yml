@@ -1,4 +1,28 @@
 - commits:
+    - subject: Bump internal dependencies
+      hash: 63a9dc9547080972b6db44d7908d6fd206a6aebd
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Fix isEventValid arguments
+      hash: e4576666225870ff3e3867858c7cb9571dc71fc7
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 5.0.3
+  title: Fix isEventValid arguments
+  date: 2022-02-01T07:31:16.823Z
+- commits:
     - subject: Update resinci/jellyfish-test Docker tag to v1.4.22
       hash: 4f69884c0f116f907c8458df5281d18ab50699df
       body: ""
