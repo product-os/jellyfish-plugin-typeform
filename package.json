@@ -54,7 +54,7 @@
     "@balena/jellyfish-core": "^14.1.4",
     "@balena/jellyfish-plugin-channels": "^2.0.0",
     "@balena/jellyfish-plugin-default": "^22.0.5",
-    "@balena/jellyfish-plugin-product-os": "^3.0.12",
+    "@balena/jellyfish-plugin-product-os": "^4.0.1",
     "@balena/jellyfish-types": "^2.0.0",
     "@balena/lint": "^6.2.0",
     "@types/jest": "^27.4.0",
