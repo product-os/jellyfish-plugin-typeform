@@ -1,4 +1,24 @@
 - commits:
+    - subject: Update dependencies (external non-major bumps)
+      hash: 0908118cae21a3e798cee6daa4af52450368da29
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Update resinci/jellyfish-test Docker tag to v1.4.23
+      hash: a7e37dee21bbb5e591561282fd813cbe54701550
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 5.0.7
+  title: "'Update dependencies (external non-major bumps)'"
+  date: 2022-02-05T01:32:20.500Z
+- commits:
     - subject: Update @balena/jellyfish-plugin-default from 23.0.2 to 23.1.1
       hash: ab9917f2328263cc9ef1a0e48841696a1f2670c9
       body: ""
