@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.0.10 - 2022-02-06
+
+* Optimize postgres for tests, minor fixes [Josh Bowling]
+
 ## 5.0.9 - 2022-02-05
 
 * Update @balena/jellyfish-worker from 18.4.4 to 18.5.2 [Renovate Bot]
