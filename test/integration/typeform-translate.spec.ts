@@ -27,10 +27,11 @@ afterEach(async () => {
 });
 
 afterAll(() => {
+	testUtils.translateAfterAll();
 	return testUtils.destroyContext(ctx);
 });
 
-describe('translate logic works as expected', () => {
+describe('translate', () => {
 	for (const testCaseName of Object.keys(webhooks)) {
 		const testCase = webhooks[testCaseName];
 		const expected = {
