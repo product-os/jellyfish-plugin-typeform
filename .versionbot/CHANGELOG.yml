@@ -1,4 +1,16 @@
 - commits:
+    - subject: 🔄 Synced file(s) with product-os/secrets
+      hash: c2f828a425aaaf9a012cd7c8e05540c4c1d18869
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 5.0.16
+  title: "'🔄 Synced file(s) with product-os/secrets'"
+  date: 2022-02-17T04:03:11.260Z
+- commits:
     - subject: Update resinci/jellyfish-test from v1.4.26 to v1.4.27
       hash: 42e11c9d407988e8c8409fd9056198a5e00ce461
       body: ""

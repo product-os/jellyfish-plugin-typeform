@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.0.16 - 2022-02-17
+
+* 🔄 Synced file(s) with product-os/secrets [joshbwlng]
+
 ## 5.0.15 - 2022-02-15
 
 * Update resinci/jellyfish-test from v1.4.26 to v1.4.27 [Renovate Bot]
