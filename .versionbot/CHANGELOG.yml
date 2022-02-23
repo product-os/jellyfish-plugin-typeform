@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 18.6.0 to 18.8.1
+      hash: b22aa13488303a2b82a77c30b6bb9e23b8498073
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Update @balena/jellyfish-plugin-default from 23.2.0 to 23.3.0
+      hash: 2d259a7738a105a0bfed0dd5c8e068d9cadc3cfd
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Update typedoc from 0.22.11 to 0.22.12
+      hash: 3a4e274ff392c1fc7182a13e902ebb115712f52f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 5.0.19
+  title: "'Update @balena/jellyfish-worker from 18.6.0 to 18.8.1'"
+  date: 2022-02-23T05:01:46.328Z
+- commits:
     - subject: 🔄 Synced file(s) with product-os/secrets
       hash: 756c8d3461ba9f9a873c36c28e1887eb1d7ace6e
       body: ""
