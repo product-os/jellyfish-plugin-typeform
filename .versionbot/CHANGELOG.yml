@@ -1,4 +1,16 @@
 - commits:
+    - subject: 🔄 Synced file(s) with product-os/secrets
+      hash: 46ce2559940ec7582bc4c268abe6e7fbef46eef5
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 5.0.22
+  title: "'🔄 Synced file(s) with product-os/secrets'"
+  date: 2022-02-27T02:22:14.827Z
+- commits:
     - subject: Transform serialize-error
       hash: 45645322a2235eab9adbd6275cbb7c00a348059c
       body: ""
