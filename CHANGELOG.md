@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.0.26 - 2022-03-01
+
+* Update internal-patch [Renovate Bot]
+
 ## 5.0.25 - 2022-03-01
 
 * Renovate: Stop ignoring internal patches [Josh Bowling]
