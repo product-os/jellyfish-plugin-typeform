@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.0.23 - 2022-03-01
+
+* Bump core and worker [Josh Bowling]
+
 ## 5.0.22 - 2022-02-27
 
 * 🔄 Synced file(s) with product-os/secrets [joshbwlng]
