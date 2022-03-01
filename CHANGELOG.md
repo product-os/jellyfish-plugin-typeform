@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.0.25 - 2022-03-01
+
+* Renovate: Stop ignoring internal patches [Josh Bowling]
+
 ## 5.0.24 - 2022-03-01
 
 * Remove jest esm transforms [Josh Bowling]
