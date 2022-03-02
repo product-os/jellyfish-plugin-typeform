@@ -5,6 +5,11 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.0.27 - 2022-03-02
+
+* Update internal-patch [Renovate Bot]
+* Update @balena/jellyfish-core from 15.1.0 to 16.0.0 [Renovate Bot]
+
 ## 5.0.26 - 2022-03-01
 
 * Update internal-patch [Renovate Bot]
