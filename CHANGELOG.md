@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.0.29 - 2022-03-05
+
+* Update readme usage example [Josh Bowling]
+
 ## 5.0.28 - 2022-03-04
 
 * Update internal-patch [Renovate Bot]
