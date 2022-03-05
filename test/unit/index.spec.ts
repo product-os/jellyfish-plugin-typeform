@@ -1,5 +1,5 @@
-import { defaultPlugin } from '@balena/jellyfish-plugin-default';
 import { channelsPlugin } from '@balena/jellyfish-plugin-channels';
+import { defaultPlugin } from '@balena/jellyfish-plugin-default';
 import { PluginManager } from '@balena/jellyfish-worker';
 import { typeformPlugin } from '../../lib/index';
 

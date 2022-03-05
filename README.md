@@ -7,13 +7,18 @@ Provides a sync integration and a channel for working with user feedback from Ty
 Below is an example how to use this library:
 
 ```typescript
-import { cardMixins } from '@balena/jellyfish-core';
-import TypeformPlugin from '@balena/jellyfish-plugin-typeform';
+import { channelsPlugin } from '@balena/jellyfish-plugin-channels';
+import { defaultPlugin } from '@balena/jellyfish-plugin-default';
+import { typeformPlugin } from '@balena/jellyfish-plugin-typeform';
+import { PluginManager } from '@balena/jellyfish-worker';
 
-const plugin = new TypeformPlugin();
-
-// Load cards from this plugin, can use custom mixins
-const cards = plugin.getCards(context, cardMixins);
+// Load cards from this plugin
+const pluginManager = new PluginManager([
+	defaultPlugin(),
+	channelsPlugin(),
+	typeformPlugin(),
+]);
+const cards = pluginManager.getCards();
 console.dir(cards);
 ```
 
