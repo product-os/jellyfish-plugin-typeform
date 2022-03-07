@@ -5,6 +5,11 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.0.39 - 2022-03-07
+
+* Update internal-patch [Renovate Bot]
+* Update typedoc from 0.22.12 to 0.22.13 [Renovate Bot]
+
 ## 5.0.38 - 2022-03-06
 
 * Update @balena/jellyfish-plugin-default from 23.3.26 to 24.0.0 [Renovate Bot]
