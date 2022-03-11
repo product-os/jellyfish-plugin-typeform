@@ -17,7 +17,12 @@
             "timestamp": "2020-03-24T11:57:02.000Z",
             "couldYouBrieflyDescribeYourUsecase": "no",
             "howDidYouFirstHearAboutBalenaCloud": "friends",
-            "howLikelyAreYouToRecommendBalenaCloud": 8
+            "howLikelyAreYouToRecommendBalenaCloud": 8,
+            "alertsGroup": [],
+            "alertsUser": [],
+            "mentionsGroup": [],
+            "mentionsUser": [],
+            "participants": []
         }
     },
     "tail": [
@@ -52,7 +57,12 @@
                         "timestamp": "2020-03-24T11:57:02.000Z",
                         "couldYouBrieflyDescribeYourUsecase": "no",
                         "howDidYouFirstHearAboutBalenaCloud": "friends",
-                        "howLikelyAreYouToRecommendBalenaCloud": 8
+                        "howLikelyAreYouToRecommendBalenaCloud": 8,
+                        "alertsGroup": [],
+                        "alertsUser": [],
+                        "mentionsGroup": [],
+                        "mentionsUser": [],
+                        "participants": []
                     }
                 }
             }

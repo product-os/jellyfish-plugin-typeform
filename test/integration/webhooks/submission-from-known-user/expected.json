@@ -18,7 +18,12 @@
             "howDidYouFirstHearAboutBalenaCloud": "Internet",
             "howHasYourExperienceBeenSoFar": "Allow non http traffic for the balenaVPN.",
             "howLikelyAreYouToRecommendBalenaCloud": 10,
-            "howWouldYouDescribeYourRole": "Developer"
+            "howWouldYouDescribeYourRole": "Developer",
+            "alertsGroup": [],
+            "alertsUser": [],
+            "mentionsGroup": [],
+            "mentionsUser": [],
+            "participants": []
         },
         "capabilities": []
     },
@@ -56,7 +61,12 @@
                         "howDidYouFirstHearAboutBalenaCloud": "Internet",
                         "howHasYourExperienceBeenSoFar": "Allow non http traffic for the balenaVPN.",
                         "howLikelyAreYouToRecommendBalenaCloud": 10,
-                        "howWouldYouDescribeYourRole": "Developer"
+                        "howWouldYouDescribeYourRole": "Developer",
+                        "alertsGroup": [],
+                        "alertsUser": [],
+                        "mentionsGroup": [],
+                        "mentionsUser": [],
+                        "participants": []
                     }
                 }
             }

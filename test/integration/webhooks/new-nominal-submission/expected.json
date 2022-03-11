@@ -18,7 +18,12 @@
             "howDidYouFirstHearAboutBalenaCloud": "friends",
             "howHasYourExperienceBeenSoFar": "My experience so far has been perfect.",
             "howLikelyAreYouToRecommendBalenaCloud": 10,
-            "howWouldYouDescribeYourRole": "Developer"
+            "howWouldYouDescribeYourRole": "Developer",
+            "alertsGroup": [],
+            "alertsUser": [],
+            "mentionsGroup": [],
+            "mentionsUser": [],
+            "participants": []
         },
         "capabilities": []
     },
@@ -56,7 +61,12 @@
                         "howDidYouFirstHearAboutBalenaCloud": "friends",
                         "howHasYourExperienceBeenSoFar": "My experience so far has been perfect.",
                         "howLikelyAreYouToRecommendBalenaCloud": 10,
-                        "howWouldYouDescribeYourRole": "Developer"
+                        "howWouldYouDescribeYourRole": "Developer",
+                        "alertsGroup": [],
+                        "alertsUser": [],
+                        "mentionsGroup": [],
+                        "mentionsUser": [],
+                        "participants": []
                     }
                 }
             }
