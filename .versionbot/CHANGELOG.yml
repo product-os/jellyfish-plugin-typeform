@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update translate tests
+      hash: e838481b13e289787524b052eea18e9bc1c94494
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 5.0.43
+  title: "'Update translate tests'"
+  date: 2022-03-12T00:09:16.659Z
+- commits:
     - subject: Update internal-patch
       hash: e2af5f10aa4b3bbcc4f3cf9c1e1e226f39457b2a
       body: ""
