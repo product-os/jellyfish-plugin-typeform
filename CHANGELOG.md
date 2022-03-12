@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.0.44 - 2022-03-12
+
+* Update internal-patch [Renovate Bot]
+
 ## 5.0.43 - 2022-03-12
 
 * Update translate tests [Josh Bowling]
