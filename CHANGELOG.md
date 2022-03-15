@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.0.50 - 2022-03-15
+
+* Bump internal deps [Josh Bowling]
+
 ## 5.0.49 - 2022-03-15
 
 * Update internal-patch [Renovate Bot]
