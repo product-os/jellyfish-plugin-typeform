@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update internal-patch
+      hash: db8cc2377e78df8b0beff7273fe73b079f9e8d98
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 5.0.56
+  title: "'Update internal-patch'"
+  date: 2022-03-17T23:12:07.685Z
+- commits:
     - subject: Move to autumndb
       hash: a8d5555ff6fc4d258a89d96592de7b1d33b494a7
       body: ""
