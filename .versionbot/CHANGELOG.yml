@@ -1,4 +1,18 @@
 - commits:
+    - subject: Move to autumndb
+      hash: a8d5555ff6fc4d258a89d96592de7b1d33b494a7
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 5.0.55
+  title: "'Move to autumndb'"
+  date: 2022-03-17T23:02:09.446Z
+- commits:
     - subject: Update internal-patch
       hash: 08442226b35e00a1d37f12f494ed9f3ba16e8872
       body: ""

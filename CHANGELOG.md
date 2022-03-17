@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.0.55 - 2022-03-17
+
+* Move to autumndb [Josh Bowling]
+
 ## 5.0.54 - 2022-03-17
 
 * Update internal-patch [Renovate Bot]
