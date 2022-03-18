@@ -1,4 +1,18 @@
 - commits:
+    - subject: Use worker contract mixins
+      hash: 86f4efe7a403dbb11997e73080d18a90c6b4c961
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 5.0.57
+  title: "'Use worker contract mixins'"
+  date: 2022-03-18T05:53:14.906Z
+- commits:
     - subject: Update internal-patch
       hash: db8cc2377e78df8b0beff7273fe73b079f9e8d98
       body: ""

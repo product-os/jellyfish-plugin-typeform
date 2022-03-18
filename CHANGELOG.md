@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.0.57 - 2022-03-18
+
+* Use worker contract mixins [Josh Bowling]
+
 ## 5.0.56 - 2022-03-17
 
 * Update internal-patch [Renovate Bot]
