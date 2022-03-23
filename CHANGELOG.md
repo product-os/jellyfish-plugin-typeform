@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.0.68 - 2022-03-23
+
+* Update internal-patch [Renovate Bot]
+
 ## 5.0.67 - 2022-03-23
 
 * Update autumndb from 19.0.3 to 19.1.0 [Renovate Bot]
