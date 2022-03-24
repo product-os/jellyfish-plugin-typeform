@@ -13,6 +13,7 @@
                 "https://api.typeform.com/forms/NLYdaT/responses?included_response_ids=mworx2qehlz824i5umworolxcwcmn69v"
             ],
             "user": null,
+            "email": null,
             "status": "open",
             "timestamp": "2020-03-24T11:57:02.000Z",
             "couldYouBrieflyDescribeYourUsecase": "no",
@@ -48,6 +49,7 @@
                             "https://api.typeform.com/forms/NLYdaT/responses?included_response_ids=mworx2qehlz824i5umworolxcwcmn69v"
                         ],
                         "user": null,
+                        "email": null,
                         "status": "open",
                         "timestamp": "2020-03-24T11:57:02.000Z",
                         "couldYouBrieflyDescribeYourUsecase": "no",

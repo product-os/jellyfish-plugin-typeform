@@ -13,6 +13,7 @@
                 "https://api.typeform.com/forms/NLYdaT/responses?included_response_ids=rpa8r39393v8a1s5iczirrpa8r3qydo3"
             ],
             "user": null,
+            "email": "marios@balena.io",
             "status": "open",
             "timestamp": "2020-03-24T11:52:35.000Z",
             "howLikelyAreYouToRecommendBalenaCloud": 10
@@ -46,6 +47,7 @@
                             "https://api.typeform.com/forms/NLYdaT/responses?included_response_ids=rpa8r39393v8a1s5iczirrpa8r3qydo3"
                         ],
                         "user": null,
+                        "email": "marios@balena.io",
                         "status": "open",
                         "timestamp": "2020-03-24T11:52:35.000Z",
                         "howLikelyAreYouToRecommendBalenaCloud": 10
