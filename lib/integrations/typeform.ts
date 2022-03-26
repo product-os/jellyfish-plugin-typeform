@@ -42,6 +42,11 @@ export class TypeformIntegration implements Integration {
 		});
 		const formResponse = (event.data.payload as any).form_response;
 		const formId = formResponse.form_id;
+		const email =
+			!!formResponse.hidden && /\s/.test(formResponse.hidden.email)
+				? formResponse.hidden.email
+				: (formResponse.answers.find((el) => el.type === 'email') || {})
+						.email || null;
 		const responseId = formResponse.token;
 		const cardSlug = `user-feedback-${formId}-${responseId}`;
 		const formResponseMirrorId = `https://api.typeform.com/forms/${formId}/responses?included_response_ids=${responseId}`;
@@ -85,6 +90,7 @@ export class TypeformIntegration implements Integration {
 				user: username,
 				status: 'open',
 				timestamp,
+				email,
 			})
 			.value();
 		return [

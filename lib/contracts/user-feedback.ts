@@ -23,6 +23,10 @@ export const userFeedback: ContractDefinition = contractMixins.mixin(
 				data: {
 					type: 'object',
 					properties: {
+						email: {
+							type: ['string', 'null'],
+							fullTextSearch: true,
+						},
 						user: {
 							title: 'Username',
 							type: ['string', 'null'],
