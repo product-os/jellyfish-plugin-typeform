@@ -1,4 +1,19 @@
 - commits:
+    - subject: Import hidden email field from form response
+      hash: f61d35e2a10cc8d038d76bd4a4265537d3bd7ac6
+      body: |
+        If a hidden email field is available, add it to the feedback contract.
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 5.1.0
+  title: "'Import hidden email field from form response'"
+  date: 2022-03-26T08:16:19.560Z
+- commits:
     - subject: Update internal-patch
       hash: 020afd4b0545be175af244a162acd956928efc02
       body: ""
