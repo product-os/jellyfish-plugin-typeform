@@ -1,4 +1,18 @@
 - commits:
+    - subject: Rename card to contract
+      hash: d1c83aefe5cfcca920f4c2acd306398e6b8b55ae
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 5.1.5
+  title: "'Rename card to contract'"
+  date: 2022-03-28T09:14:15.877Z
+- commits:
     - subject: Update internal-patch
       hash: fa322bce4e2cc39eee809dc3376ab14800413b16
       body: ""
