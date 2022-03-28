@@ -48,7 +48,7 @@ export class TypeformIntegration implements Integration {
 				: (formResponse.answers.find((el) => el.type === 'email') || {})
 						.email || null;
 		const responseId = formResponse.token;
-		const cardSlug = `user-feedback-${formId}-${responseId}`;
+		const contractSlug = `user-feedback-${formId}-${responseId}`;
 		const formResponseMirrorId = `https://api.typeform.com/forms/${formId}/responses?included_response_ids=${responseId}`;
 		const username = /\s/.test(formResponse.hidden.user)
 			? null
@@ -100,7 +100,7 @@ export class TypeformIntegration implements Integration {
 				card: {
 					name: `Feedback from ${username || 'unknown user'}`,
 					type: 'user-feedback@1.0.0',
-					slug: cardSlug,
+					slug: contractSlug,
 					active: true,
 					tags: [],
 					requires: [],
