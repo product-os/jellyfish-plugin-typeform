@@ -7,7 +7,7 @@ export const channelUserFeedback: ContractDefinition = {
 	markers: ['org-balena'],
 	data: {
 		filter: {
-			name: 'User feedback cards',
+			name: 'User feedback contracts',
 			schema: {
 				type: 'object',
 				additionalProperties: true,
