@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update internal-patch
+      hash: 555fd940ca87f903d6f1c68c596f0328327c538b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 5.1.6
+  title: "'Update internal-patch'"
+  date: 2022-03-30T13:24:33.461Z
+- commits:
     - subject: Rename card to contract
       hash: d1c83aefe5cfcca920f4c2acd306398e6b8b55ae
       body: ""

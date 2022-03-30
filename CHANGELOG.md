@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.1.6 - 2022-03-30
+
+* Update internal-patch [Renovate Bot]
+
 ## 5.1.5 - 2022-03-28
 
 * Rename card to contract [Josh Bowling]
