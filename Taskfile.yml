@@ -1,9 +1,5 @@
 version: '3'
 
-env:
-  INTEGRATION_TYPEFORM_SIGNATURE_KEY:
-    sh: cat /run/secrets/integration_typeform_signature_key
-
 tasks:
   test:
     cmds:
