@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.1.32 - 2022-04-13
+
+* Remove git secrets [Josh Bowling]
+
 ## 5.1.31 - 2022-04-13
 
 * 🔄 Synced file(s) with product-os/secrets [joshbwlng]

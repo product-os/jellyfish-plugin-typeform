@@ -1,4 +1,19 @@
 - commits:
+    - subject: Remove git secrets
+      hash: 47cd632b7e5b20cb7f71e9650fad64a6fcc1e3a8
+      body: |
+        No longer need git secrets for dev/test
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 5.1.32
+  title: "'Remove git secrets'"
+  date: 2022-04-13T14:21:05.864Z
+- commits:
     - subject: 🔄 Synced file(s) with product-os/secrets
       hash: b2ab5a25abe4293aab046823c6bb6c07316bdcdf
       body: ""
