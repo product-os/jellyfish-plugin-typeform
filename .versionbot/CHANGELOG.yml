@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update internal-patch
+      hash: a8c0ff908bfd46d0ec4077b2f21403de31ff90f9
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 5.1.33
+  title: "'Update internal-patch'"
+  date: 2022-04-13T14:39:30.475Z
+- commits:
     - subject: Remove git secrets
       hash: 47cd632b7e5b20cb7f71e9650fad64a6fcc1e3a8
       body: |
