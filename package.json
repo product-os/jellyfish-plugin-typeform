@@ -47,12 +47,12 @@
   "license": "AGPL-3.0",
   "dependencies": {
     "@balena/jellyfish-worker": "^21.2.9",
-    "autumndb": "^19.1.20",
+    "autumndb": "^19.1.21",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@balena/jellyfish-config": "^2.0.6",
-    "@balena/jellyfish-plugin-channels": "^2.0.88",
+    "@balena/jellyfish-plugin-channels": "^2.0.89",
     "@balena/jellyfish-plugin-default": "^24.0.73",
     "@balena/jellyfish-plugin-product-os": "^4.0.58",
     "@balena/jellyfish-types": "^2.0.5",
