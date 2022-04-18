@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update internal deps
+      hash: 617640cf7e5cd6b0aae716b6048e75b623a46e23
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 5.1.42
+  title: "'Update internal deps'"
+  date: 2022-04-18T06:36:49.013Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 21.2.12 to 22.0.0
       hash: 7aece623ae5e6ebb7a975d90068dbd2653a95bac
       body: ""

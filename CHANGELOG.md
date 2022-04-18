@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.1.42 - 2022-04-18
+
+* Update internal deps [Josh Bowling]
+
 ## 5.1.41 - 2022-04-18
 
 * Update @balena/jellyfish-worker from 21.2.12 to 22.0.0 [Josh Bowling]
