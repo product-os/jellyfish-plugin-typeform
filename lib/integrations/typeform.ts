@@ -2,22 +2,21 @@ import type { Contract } from '@balena/jellyfish-types/build/core';
 import type {
 	Integration,
 	IntegrationDefinition,
+	IntegrationInitializationOptions,
 	SequenceItem,
 } from '@balena/jellyfish-worker';
-import crypto from 'crypto';
-import _ from 'lodash';
+import * as crypto from 'crypto';
+import * as _ from 'lodash';
 
 const SLUG = 'typeform';
 
 export class TypeformIntegration implements Integration {
 	public slug = SLUG;
 
-	// TS-TODO: Use proper types
-	public context: any;
-	public options: any;
+	public context: IntegrationInitializationOptions['context'];
+	public options: IntegrationInitializationOptions;
 
-	// TS-TODO: Use proper types
-	constructor(options: any) {
+	constructor(options: IntegrationInitializationOptions) {
 		this.options = options;
 		this.context = this.options.context;
 	}
