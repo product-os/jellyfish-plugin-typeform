@@ -1,4 +1,18 @@
 - commits:
+    - subject: Correctly type integration options
+      hash: 1261d6a426c7bbcc89a328be3173ab2383759e3f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 5.1.45
+  title: "'Correctly type integration options'"
+  date: 2022-04-22T10:41:36.489Z
+- commits:
     - subject: Update internal-patch
       hash: efdb4d00ba505737034831fda9b5b067901778e2
       body: ""
