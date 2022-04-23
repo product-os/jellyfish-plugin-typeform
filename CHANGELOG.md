@@ -5,6 +5,11 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.1.46 - 2022-04-23
+
+* Update internal-patch [Renovate Bot]
+* Update internal-patch [Renovate Bot]
+
 ## 5.1.45 - 2022-04-22
 
 * Correctly type integration options [Lucian Buzzo]
