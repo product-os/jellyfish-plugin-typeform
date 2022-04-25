@@ -40,7 +40,7 @@ npm run test:compose
 You can also run tests locally against Postgres and Redis instances running in `docker-compose`:
 ```
 npm run compose
-REDIS_HOST=localhost POSTGRES_HOST=localhost npx jest test/integration/sync/typeform-translate.spec.ts
+REDIS_HOST=localhost POSTGRES_HOST=localhost npx jest test/integration/typeform-translate.spec.ts
 ```
 
 You can also access these Postgres and Redis instances:
