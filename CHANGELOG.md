@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.1.49 - 2022-04-25
+
+* Fix incorrect filepath to test file in README [Lucian Buzzo]
+
 ## 5.1.48 - 2022-04-25
 
 * Update internal-patch [Renovate Bot]
