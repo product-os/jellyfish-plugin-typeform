@@ -5,6 +5,11 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.2.0 - 2022-04-26
+
+* Update internal-patch [Renovate Bot]
+* Lookup contact and return link alongside survey contract [edufschmidt]
+
 ## 5.1.49 - 2022-04-25
 
 * Fix incorrect filepath to test file in README [Lucian Buzzo]

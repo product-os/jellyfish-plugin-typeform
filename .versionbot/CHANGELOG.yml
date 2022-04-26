@@ -1,4 +1,26 @@
 - commits:
+    - subject: Update internal-patch
+      hash: d392367b1f73ed1a8f4d37017ba7f443f04bbf88
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Lookup contact and return link alongside survey contract
+      hash: c8f790b51991d18d0ac6927f742cb364d0e7e31b
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: edufschmidt
+      nested: []
+  version: 5.2.0
+  title: "'Update internal-patch'"
+  date: 2022-04-26T04:09:34.716Z
+- commits:
     - subject: Fix incorrect filepath to test file in README
       hash: 4b58f6dc3b4f4ee43288737a4fd9264e749086c1
       body: ""
