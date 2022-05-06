@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.2.7 - 2022-05-06
+
+* Update jest dependencies [Josh Bowling]
+
 ## 5.2.6 - 2022-04-30
 
 * Update internal-patch [Renovate Bot]
