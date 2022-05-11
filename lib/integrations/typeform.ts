@@ -120,6 +120,8 @@ export class TypeformIntegration implements Integration {
 }
 
 export const typeformIntegrationDefinition: IntegrationDefinition = {
+	slug: SLUG,
+
 	initialize: async (options) => new TypeformIntegration(options),
 	isEventValid: (_logContext, token, rawEvent, headers) => {
 		const signature = headers['typeform-signature'];

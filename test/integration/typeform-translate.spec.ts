@@ -25,7 +25,7 @@ beforeAll(async () => {
 	ctx.worker.setTriggers(ctx.logContext, []);
 
 	await workerTestUtils.translateBeforeAll(ctx);
-});
+}, 10000);
 
 afterEach(async () => {
 	await workerTestUtils.translateAfterEach(ctx);
