@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 6.0.1 - 2022-05-11
+
+* Update autumndb from 19.1.41 to 19.3.1 [Renovate Bot]
+
 ## 6.0.0 - 2022-05-11
 
 * Increase timeout for integration test setup [Josh Bowling]

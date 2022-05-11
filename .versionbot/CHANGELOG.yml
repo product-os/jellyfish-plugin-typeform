@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update autumndb from 19.1.41 to 19.3.1
+      hash: ec0e2b0e19dc4d364fe367ab29a864b6ba26d567
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 6.0.1
+  title: "'Update autumndb from 19.1.41 to 19.3.1'"
+  date: 2022-05-11T08:47:35.828Z
+- commits:
     - subject: Increase timeout for integration test setup
       hash: 4c0d17c884791bb9064dde9af11dbbfae5d8a129
       body: ""
