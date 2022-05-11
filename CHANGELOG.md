@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 5.2.14 - 2022-05-11
+
+* Bump internal [Josh Bowling]
+
 ## 5.2.13 - 2022-05-10
 
 * Update internal-patch [Renovate Bot]
