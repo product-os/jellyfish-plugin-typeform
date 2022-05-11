@@ -1,4 +1,20 @@
 - commits:
+    - subject: Add relationship definitions
+      hash: aa8bcd88b3cf28567e3ddf93cff889413462b0e8
+      body: |
+        Add relationships defined between contract types in the module,
+        or between contract types in the module and its dependencies
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Ramiro Gonzalez <ramiro.gonzalez@balena.io>
+        signed-off-by: Ramiro Gonzalez <ramiro.gonzalez@balena.io>
+      author: Ramiro González Maciel
+      nested: []
+  version: 6.1.0
+  title: "'Add relationship definitions'"
+  date: 2022-05-11T09:04:31.608Z
+- commits:
     - subject: Update autumndb from 19.1.41 to 19.3.1
       hash: ec0e2b0e19dc4d364fe367ab29a864b6ba26d567
       body: ""
