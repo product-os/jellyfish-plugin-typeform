@@ -5,6 +5,11 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 6.0.0 - 2022-05-11
+
+* Increase timeout for integration test setup [Josh Bowling]
+* Update worker to 24 [karaxuna]
+
 ## 5.2.13 - 2022-05-10
 
 * Update internal-patch [Renovate Bot]
