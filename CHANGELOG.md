@@ -5,6 +5,11 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 6.1.1 - 2022-05-13
+
+* Update internal-patch [Renovate Bot]
+* Update autumndb from 19.3.1 to 20.0.0 [Renovate Bot]
+
 ## 6.1.0 - 2022-05-11
 
 * Add relationship definitions [Ramiro González Maciel]

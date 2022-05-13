@@ -1,4 +1,24 @@
 - commits:
+    - subject: Update internal-patch
+      hash: 66824c722d589fa815f1c27c47d9d29cfcb3d784
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Update autumndb from 19.3.1 to 20.0.0
+      hash: e55641848338317e680d6f30b1a8d71d9d9f10be
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 6.1.1
+  title: "'Update internal-patch'"
+  date: 2022-05-13T12:49:37.691Z
+- commits:
     - subject: Add relationship definitions
       hash: aa8bcd88b3cf28567e3ddf93cff889413462b0e8
       body: |
