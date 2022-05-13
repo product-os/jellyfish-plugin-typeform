@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 6.1.2 - 2022-05-13
+
+* Update @balena/jellyfish-plugin-product-os from 5.0.24 to 6.0.1 [Renovate Bot]
+
 ## 6.1.1 - 2022-05-13
 
 * Update internal-patch [Renovate Bot]

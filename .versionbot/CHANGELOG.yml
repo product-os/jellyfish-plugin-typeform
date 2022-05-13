@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-plugin-product-os from 5.0.24 to 6.0.1
+      hash: a32a7c5ca1c536b2f9c9cb3b24ceaf264a5c39fe
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 6.1.2
+  title: "'Update @balena/jellyfish-plugin-product-os from 5.0.24 to 6.0.1'"
+  date: 2022-05-13T13:00:55.896Z
+- commits:
     - subject: Update internal-patch
       hash: 66824c722d589fa815f1c27c47d9d29cfcb3d784
       body: ""
