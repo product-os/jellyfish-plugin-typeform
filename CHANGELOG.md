@@ -5,6 +5,11 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 8.0.2 - 2022-05-17
+
+* Update internal-patch [Renovate Bot]
+* Update @balena/jellyfish-plugin-channels from 3.0.5 to 3.1.1 [Renovate Bot]
+
 ## 8.0.1 - 2022-05-16
 
 * Update dependencies (internal patch bumps) [Renovate Bot]
