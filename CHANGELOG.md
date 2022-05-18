@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 8.0.4 - 2022-05-18
+
+* Test autumndb relationship validation [Josh Bowling]
+
 ## 8.0.3 - 2022-05-17
 
 * Update resinci/jellyfish-test from v3.0.11 to v3.0.12 [Renovate Bot]

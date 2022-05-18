@@ -1,4 +1,18 @@
 - commits:
+    - subject: Test autumndb relationship validation
+      hash: 7fc01c78827d956dc6b77fd3f7d7a09de3a47534
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 8.0.4
+  title: "'Test autumndb relationship validation'"
+  date: 2022-05-18T02:26:48.956Z
+- commits:
     - subject: Update resinci/jellyfish-test from v3.0.11 to v3.0.12
       hash: 1cceba5f01cd84bfbc4d5b0965c57487929b9acf
       body: ""
