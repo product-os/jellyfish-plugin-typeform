@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 8.0.11 - 2022-05-30
+
+* Test worker [Josh Bowling]
+
 ## 8.0.10 - 2022-05-28
 
 * Update external-non-major (external non-major bumps) [Renovate Bot]

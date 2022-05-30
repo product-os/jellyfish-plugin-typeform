@@ -1,4 +1,18 @@
 - commits:
+    - subject: Test worker
+      hash: fe4d34dc62883eeb143c91f5c76aa7fb5429d0db
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 8.0.11
+  title: "'Test worker'"
+  date: 2022-05-30T01:38:53.756Z
+- commits:
     - subject: Update external-non-major (external non-major bumps)
       hash: a1ff9a4b9b46ec410471da8a4f03ef879bf3ca20
       body: ""
