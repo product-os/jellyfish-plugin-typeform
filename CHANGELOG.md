@@ -5,6 +5,11 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 8.0.12 - 2022-05-31
+
+* Update @balena/jellyfish-worker from 27.1.0 to 27.2.1 [Renovate Bot]
+* Update autumndb from 20.0.6 to 20.1.0 [Renovate Bot]
+
 ## 8.0.11 - 2022-05-31
 
 * Update typescript from 4.6.4 to 4.7.2 [Renovate Bot]
