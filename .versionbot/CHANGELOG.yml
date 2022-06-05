@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update external-major (external major bumps)
+      hash: 4ece18c018fcdac57a3eed21ebf3a9aa9b236faa
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 8.0.16
+  title: "'Update external-major (external major bumps) (major)'"
+  date: 2022-06-05T11:53:27.134Z
+- commits:
     - subject: Update typescript from 4.7.2 to 4.7.3
       hash: 77a50a65784593846467a5c9dc58fc0f856f985c
       body: ""

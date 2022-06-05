@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 8.0.16 - 2022-06-05
+
+* Update external-major (external major bumps) [Renovate Bot]
+
 ## 8.0.15 - 2022-06-03
 
 * Update typescript from 4.7.2 to 4.7.3 [Renovate Bot]
