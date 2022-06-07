@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 8.0.17 - 2022-06-07
+
+* Update @balena/jellyfish-plugin-default from 27.4.2 to 27.5.0 [Josh Bowling]
+
 ## 8.0.16 - 2022-06-05
 
 * Update external-major (external major bumps) [Renovate Bot]

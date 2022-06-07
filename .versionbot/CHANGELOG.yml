@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update @balena/jellyfish-plugin-default from 27.4.2 to 27.5.0
+      hash: 977e8453a1732c0a222610e906984dd955ca4d0a
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 8.0.17
+  title: "'Update @balena/jellyfish-plugin-default from 27.4.2 to 27.5.0'"
+  date: 2022-06-07T08:31:47.914Z
+- commits:
     - subject: Update external-major (external major bumps)
       hash: 4ece18c018fcdac57a3eed21ebf3a9aa9b236faa
       body: ""
