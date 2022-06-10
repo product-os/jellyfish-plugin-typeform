@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update internal packages
+      hash: bf4bb021a42aa3725e5be020abcc8c8f2cbe6d6c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 8.0.23
+  title: "'Test worker polling changes'"
+  date: 2022-06-10T06:30:42.699Z
+- commits:
     - subject: Update @balena/jellyfish-plugin-default from 27.7.1 to 27.8.0
       hash: 9c971565dc2cf51d6ffe686d00ac811948e08846
       body: ""
