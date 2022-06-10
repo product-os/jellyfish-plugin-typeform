@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-plugin-default from 27.7.1 to 27.8.0
+      hash: 9c971565dc2cf51d6ffe686d00ac811948e08846
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 8.0.22
+  title: "'Update @balena/jellyfish-plugin-default from 27.7.1 to 27.8.0'"
+  date: 2022-06-09T06:56:47.010Z
+- commits:
     - subject: Update resinci/jellyfish-test from v3.0.13 to v3.0.14
       hash: 197738ff6ad19c8cd6ffcf161af1e4502f96c5e8
       body: ""
