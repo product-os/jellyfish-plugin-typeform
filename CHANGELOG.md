@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 8.0.24 - 2022-06-11
+
+* Update dependencies [Josh Bowling]
+
 ## 8.0.23 - 2022-06-10
 
 * Update internal packages [Josh Bowling]
