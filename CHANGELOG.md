@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 8.0.27 - 2022-06-14
+
+* Use official Redis 6 image [Josh Bowling]
+
 ## 8.0.26 - 2022-06-14
 
 * Use official Postgres 14 image [Josh Bowling]

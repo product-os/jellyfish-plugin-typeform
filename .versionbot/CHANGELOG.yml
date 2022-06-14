@@ -1,4 +1,18 @@
 - commits:
+    - subject: Use official Redis 6 image
+      hash: 5b77b0923443cd1fd4e3670b0fc079724bf170dc
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 8.0.27
+  title: "'Use official Redis 6 image'"
+  date: 2022-06-14T06:03:04.359Z
+- commits:
     - subject: Use official Postgres 14 image
       hash: 4904713d992a66257a2b4582ef10b2964369dfb2
       body: ""
