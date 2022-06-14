@@ -1,4 +1,18 @@
 - commits:
+    - subject: Use postgres alpine image
+      hash: 4dacad6cd877000a7477ac8d82f3c968a5b323b2
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 8.0.28
+  title: "'Use postgres alpine image'"
+  date: 2022-06-14T08:40:27.066Z
+- commits:
     - subject: Use official Redis 6 image
       hash: 5b77b0923443cd1fd4e3670b0fc079724bf170dc
       body: ""
