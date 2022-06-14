@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 8.0.26 - 2022-06-14
+
+* Use official Postgres 14 image [Josh Bowling]
+
 ## 8.0.25 - 2022-06-13
 
 * Update worker to 3.0.11 [Josh Bowling]
