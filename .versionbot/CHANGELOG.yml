@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update internal packages
+      hash: 2d0395523b6b8cd0d89042e516d9d9bd31c694fe
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 8.0.29
+  title: "'Update internal packages'"
+  date: 2022-06-16T01:19:21.787Z
+- commits:
     - subject: Use postgres alpine image
       hash: 4dacad6cd877000a7477ac8d82f3c968a5b323b2
       body: ""

@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 8.0.29 - 2022-06-16
+
+* Update internal packages [Josh Bowling]
+
 ## 8.0.28 - 2022-06-14
 
 * Use postgres alpine image [Josh Bowling]
