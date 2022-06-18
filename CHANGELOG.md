@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 8.0.31 - 2022-06-18
+
+* Update redis image from 6 to 7 [Josh Bowling]
+
 ## 8.0.30 - 2022-06-17
 
 * Update typescript from 4.7.3 to 4.7.4 [renovate[bot]]
