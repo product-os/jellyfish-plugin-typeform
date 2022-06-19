@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 8.0.32 - 2022-06-19
+
+* Drop @balena/jellyfish-config [Josh Bowling]
+
 ## 8.0.31 - 2022-06-18
 
 * Update redis image from 6 to 7 [Josh Bowling]
