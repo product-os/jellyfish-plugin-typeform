@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 8.0.33 - 2022-06-20
+
+* CI: Use standard node image [Josh Bowling]
+
 ## 8.0.32 - 2022-06-19
 
 * Drop @balena/jellyfish-config [Josh Bowling]
