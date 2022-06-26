@@ -1,4 +1,24 @@
 - commits:
+    - subject: Update dependencies (external v0 minor bumps)
+      hash: 047a568b37fdf8703ebca723d69a4ae301948f17
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+    - subject: Update typedoc from 0.22.17 to 0.22.18
+      hash: 5dd69d6c5461d749aa817ca0ea263d7ca274defc
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 8.0.35
+  title: "'Update dependencies (external v0 minor bumps)'"
+  date: 2022-06-26T23:22:57.832Z
+- commits:
     - subject: Bump dependencies
       hash: 07b55196c43b9575e668146dc78312c5e8ea7075
       body: ""
