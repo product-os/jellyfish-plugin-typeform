@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 8.0.39 - 2022-06-28
+
+* Drop plugin-channels [Josh Bowling]
+
 ## 8.0.38 - 2022-06-28
 
 * Update: update typedoc from 0.23.1 to 0.23.2 [renovate[bot]]
