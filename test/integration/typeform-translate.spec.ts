@@ -1,4 +1,3 @@
-import { channelsPlugin } from '@balena/jellyfish-plugin-channels';
 import { defaultPlugin } from '@balena/jellyfish-plugin-default';
 import { productOsPlugin } from '@balena/jellyfish-plugin-product-os';
 import { testUtils as workerTestUtils } from '@balena/jellyfish-worker';
@@ -11,12 +10,7 @@ let ctx: workerTestUtils.TestContext;
 
 beforeAll(async () => {
 	ctx = await workerTestUtils.newContext({
-		plugins: [
-			defaultPlugin(),
-			productOsPlugin(),
-			channelsPlugin(),
-			typeformPlugin(),
-		],
+		plugins: [defaultPlugin(), productOsPlugin(), typeformPlugin()],
 	});
 	await workerTestUtils.translateBeforeAll(ctx);
 }, 10000);
