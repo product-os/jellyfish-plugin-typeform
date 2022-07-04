@@ -5,6 +5,12 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 8.0.40 - 2022-07-02
+
+* Update typedoc from 0.23.3 to 0.23.5 [renovate[bot]]
+* Update typedoc from 0.23.2 to 0.23.3 [renovate[bot]]
+* Update autumndb from 20.1.23 to 20.2.1 [renovate[bot]]
+
 ## 8.0.39 - 2022-06-28
 
 * Drop plugin-channels [Josh Bowling]

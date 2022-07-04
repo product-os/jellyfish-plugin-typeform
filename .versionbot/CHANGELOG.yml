@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update typedoc from 0.23.3 to 0.23.5
+      hash: 5988efb6cb8ca669f5dc5c78cec78e2227366f77
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+    - subject: Update typedoc from 0.23.2 to 0.23.3
+      hash: cb5852aec3d830dccc9e4a8bd35994238dbec6e0
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+    - subject: Update autumndb from 20.1.23 to 20.2.1
+      hash: 09fee788ec1a354f5c2cdbbdb58ddf816da17450
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 8.0.40
+  title: "'Update typedoc from 0.23.3 to 0.23.5'"
+  date: 2022-07-02T18:08:02.656Z
+- commits:
     - subject: Drop plugin-channels
       hash: 71e3b250a89cd219a8cc6274bba5d09d7d44991a
       body: |
