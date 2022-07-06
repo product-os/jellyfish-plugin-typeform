@@ -1,4 +1,18 @@
 - commits:
+    - subject: Bump internal
+      hash: 7c0bba63e1f6c879a50d9c524bdc2ef570a5d398
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 8.1.1
+  title: "'Bump internal'"
+  date: 2022-07-06T08:53:20.016Z
+- commits:
     - subject: Drop @balena/jellyfish-types
       hash: 163b19d46dcdb1077e6e39897af5f918e00c5f3f
       body: ""

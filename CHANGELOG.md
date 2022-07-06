@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 8.1.1 - 2022-07-06
+
+* Bump internal [Josh Bowling]
+
 ## 8.1.0 - 2022-07-06
 
 * Drop @balena/jellyfish-types [Josh Bowling]
