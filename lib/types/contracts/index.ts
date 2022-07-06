@@ -7,4 +7,5 @@
 export type {
 	UserFeedbackContract,
 	UserFeedbackContractDefinition,
+	UserFeedbackData,
 } from './user-feedback';

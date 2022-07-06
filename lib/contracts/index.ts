@@ -1,4 +1,4 @@
-import type { ContractDefinition } from '@balena/jellyfish-types/build/core';
+import type { ContractDefinition } from 'autumndb';
 import { channelUserFeedback } from './channel-user-feedback';
 import { relationshipPatternIsAttachedToUserFeedback } from './relationship-pattern-is-attached-to-user-feedback';
 import { relationshipUserFeedbackIsOwnedByUser } from './relationship-user-feedback-is-owned-by-user';
