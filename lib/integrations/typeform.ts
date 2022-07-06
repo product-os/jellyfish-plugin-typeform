@@ -1,13 +1,10 @@
 import type {
-	Contract,
-	ContractData,
-} from '@balena/jellyfish-types/build/core';
-import type {
 	Integration,
 	IntegrationDefinition,
 	IntegrationInitializationOptions,
 	SequenceItem,
 } from '@balena/jellyfish-worker';
+import type { Contract, ContractData } from 'autumndb';
 import * as crypto from 'crypto';
 import * as _ from 'lodash';
 import { v4 as uuidv4 } from 'uuid';
