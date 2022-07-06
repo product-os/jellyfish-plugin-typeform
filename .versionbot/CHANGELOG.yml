@@ -1,4 +1,24 @@
 - commits:
+    - subject: Update @balena/jellyfish-plugin-product-os from 7.0.28 to 7.1.0
+      hash: b83b47082c497621fd37f7b6ef2e1566d30e7557
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+    - subject: Update autumndb from 20.2.1 to 20.3.0
+      hash: 9d232147b787ce67f085038137e8d44c38d476cd
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 8.0.41
+  title: "'Update @balena/jellyfish-plugin-product-os from 7.0.28 to 7.1.0'"
+  date: 2022-07-06T04:23:16.292Z
+- commits:
     - subject: Update typedoc from 0.23.3 to 0.23.5
       hash: 5988efb6cb8ca669f5dc5c78cec78e2227366f77
       body: ""
