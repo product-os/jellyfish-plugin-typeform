@@ -8,6 +8,7 @@ import type { Contract, ContractData } from 'autumndb';
 import * as crypto from 'crypto';
 import * as _ from 'lodash';
 import { v4 as uuidv4 } from 'uuid';
+import { environment } from '../environment';
 
 const SLUG = 'typeform';
 
@@ -34,9 +35,6 @@ export class TypeformIntegration implements Integration {
 		event: Contract,
 		_options: { actor: string },
 	): Promise<SequenceItem[]> {
-		if (!this.options.token || !this.options.token.signature) {
-			return [];
-		}
 		const adminActorId = await this.context.getActorId({
 			handle: this.options.defaultUser,
 		});
@@ -120,14 +118,14 @@ export const typeformIntegrationDefinition: IntegrationDefinition = {
 	slug: SLUG,
 
 	initialize: async (options) => new TypeformIntegration(options),
-	isEventValid: (_logContext, token, rawEvent, headers) => {
+	isEventValid: (_logContext, _token, rawEvent, headers) => {
 		const signature = headers['typeform-signature'];
-		if (!signature || !token || !token.signature) {
+		if (!signature) {
 			return false;
 		}
 
 		const hash = crypto
-			.createHmac('sha256', token.signature)
+			.createHmac('sha256', environment.signature)
 			.update(rawEvent)
 			.digest('base64');
 		return signature === `sha256=${hash}`;
