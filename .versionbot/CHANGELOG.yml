@@ -1,4 +1,20 @@
 - commits:
+    - subject: Define/test env vars
+      hash: 3d702595434317e215a2855f0205e9713d14d223
+      body: |
+        Define and test supported environment variables locally instead
+        of implicitly depending on jellyfish-environment.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 8.1.2
+  title: "'Define/test env vars'"
+  date: 2022-07-09T08:57:45.134Z
+- commits:
     - subject: Bump internal
       hash: 7c0bba63e1f6c879a50d9c524bdc2ef570a5d398
       body: ""
