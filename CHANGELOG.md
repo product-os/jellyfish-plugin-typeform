@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 8.2.0 - 2022-07-11
+
+* Add missing message to user-feedback relationship [Josh Bowling]
+
 ## 8.1.2 - 2022-07-09
 
 * Update typedoc from 0.23.5 to 0.23.7 [renovate[bot]]

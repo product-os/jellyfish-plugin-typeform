@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add missing message to user-feedback relationship
+      hash: aece4feda48235cae602f1d3ac3e1230a1f4ace2
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 8.2.0
+  title: "'Add missing message to user-feedback relationship'"
+  date: 2022-07-11T02:22:31.529Z
+- commits:
     - subject: Update typedoc from 0.23.5 to 0.23.7
       hash: 9794572d045b05cb14b10f643c6727e76d973c5d
       body: ""
