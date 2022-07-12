@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 9.0.0 - 2022-07-12
+
+* Remove message relationship [Josh Bowling]
+
 ## 8.2.0 - 2022-07-11
 
 * Add missing message to user-feedback relationship [Josh Bowling]

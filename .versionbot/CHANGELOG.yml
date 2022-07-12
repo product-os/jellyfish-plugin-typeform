@@ -1,4 +1,19 @@
 - commits:
+    - subject: Remove message relationship
+      hash: e75690bc4a3c38732d2513723b44bf416c9b8f57
+      body: |
+        Now using the wildcard message relationship defined in plugin-default
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 9.0.0
+  title: "'Remove message relationship'"
+  date: 2022-07-12T00:22:18.713Z
+- commits:
     - subject: Add missing message to user-feedback relationship
       hash: aece4feda48235cae602f1d3ac3e1230a1f4ace2
       body: ""
