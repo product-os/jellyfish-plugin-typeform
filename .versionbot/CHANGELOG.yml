@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-plugin-product-os from 7.1.3 to 8.0.0
+      hash: df748ee424ac33c2251a374ad68699f40088eab6
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 9.0.3
+  title: "'Update @balena/jellyfish-plugin-product-os from 7.1.3 to 8.0.0'"
+  date: 2022-07-15T02:25:29.345Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 31.0.0 to 31.1.0
       hash: fc39f23c85bc2951ca64544ed12458e16b90a07f
       body: ""
