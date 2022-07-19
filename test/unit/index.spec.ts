@@ -1,8 +1,7 @@
-import { defaultPlugin } from '@balena/jellyfish-plugin-default';
 import { PluginManager } from '@balena/jellyfish-worker';
 import { typeformPlugin } from '../../lib/index';
 
-const pluginManager = new PluginManager([defaultPlugin(), typeformPlugin()]);
+const pluginManager = new PluginManager([typeformPlugin()]);
 
 test('Expected contracts are loaded', () => {
 	const contracts = pluginManager.getCards();
