@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.0 - 2022-07-19
+
+* Upgrade to worker v32.x and AutumnDB v21.x [Lucian Buzzo]
+
 ## 9.0.7 - 2022-07-19
 
 * Drop plugin-default [Josh Bowling]
