@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.2 - 2022-07-23
+
+* CI: Disable redis persistence [Josh Bowling]
+
 ## 10.0.1 - 2022-07-21
 
 * Update autumndb from 21.0.0 to 21.1.3 [renovate[bot]]
