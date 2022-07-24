@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.4 - 2022-07-24
+
+* Update typedoc from 0.23.8 to 0.23.9 [renovate[bot]]
+
 ## 10.0.3 - 2022-07-24
 
 * Update repo.yml [Josh Bowling]
