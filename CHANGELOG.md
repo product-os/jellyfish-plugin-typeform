@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.6 - 2022-07-26
+
+* Update worker [Josh Bowling]
+
 ## 10.0.5 - 2022-07-25
 
 * Update autumndb from 21.1.4 to 21.2.0 [renovate[bot]]
