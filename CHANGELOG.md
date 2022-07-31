@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.9 - 2022-07-31
+
+* Update lint-staged from 13.0.2 to 13.0.3 [renovate[bot]]
+
 ## 10.0.8 - 2022-07-29
 
 * Update @balena/jellyfish-worker from 32.2.0 to 32.3.1 [renovate[bot]]
