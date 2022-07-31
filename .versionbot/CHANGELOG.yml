@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update jest monorepo
+      hash: 4c11c2f12945d6bd720d0fcf429424ecba83f027
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 10.0.10
+  title: "'Update jest monorepo'"
+  date: 2022-07-31T18:15:51.918Z
+- commits:
     - subject: Update lint-staged from 13.0.2 to 13.0.3
       hash: 8f461aeddb3bafb18c848098b279254f7d23969b
       body: ""
