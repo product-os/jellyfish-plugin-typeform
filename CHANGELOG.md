@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.13 - 2022-07-31
+
+* Update typedoc from 0.23.9 to 0.23.10 [renovate[bot]]
+
 ## 10.0.12 - 2022-07-31
 
 * Update ts-jest from 28.0.5 to 28.0.7 [renovate[bot]]
