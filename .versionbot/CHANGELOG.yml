@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update example in readme
+      hash: e0195626bf7e3c0aa499e751e88f47172172118e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 10.0.34
+  title: "'Update example in readme'"
+  date: 2022-08-16T04:21:45.013Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 33.0.6 to 33.0.7
       hash: c9856b4d303a6239179adcccc72f50b47a696cdd
       body: ""
