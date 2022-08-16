@@ -7,15 +7,11 @@ Provides a sync integration and a channel for working with user feedback from Ty
 Below is an example how to use this library:
 
 ```typescript
-import { channelsPlugin } from '@balena/jellyfish-plugin-channels';
-import { defaultPlugin } from '@balena/jellyfish-plugin-default';
 import { typeformPlugin } from '@balena/jellyfish-plugin-typeform';
 import { PluginManager } from '@balena/jellyfish-worker';
 
 // Load contracts from this plugin
 const pluginManager = new PluginManager([
-	defaultPlugin(),
-	channelsPlugin(),
 	typeformPlugin(),
 ]);
 const contracts = pluginManager.getCards();
