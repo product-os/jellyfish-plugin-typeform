@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.45 - 2022-08-20
+
+* Update ts-jest from 28.0.7 to 28.0.8 [renovate[bot]]
+
 ## 10.0.44 - 2022-08-20
 
 * Update @types/jest from 28.1.6 to 28.1.7 [renovate[bot]]
