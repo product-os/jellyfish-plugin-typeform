@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.75 - 2022-09-10
+
+* Update autumndb from 22.1.28 to 22.2.10 [renovate[bot]]
+
 ## 10.0.74 - 2022-09-10
 
 * Update jest to v29 [Josh Bowling]
