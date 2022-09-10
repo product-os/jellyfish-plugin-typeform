@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.74 - 2022-09-10
+
+* Update jest to v29 [Josh Bowling]
+
 ## 10.0.73 - 2022-09-10
 
 * Update typescript from 4.8.2 to 4.8.3 [renovate[bot]]
