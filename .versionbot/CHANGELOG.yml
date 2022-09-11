@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update autumndb from 22.2.26 to 22.2.28
+      hash: 9564d5abfafe85886e29c298a0e3cc1fb2e2a08d
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 10.0.90
+  title: "'Update autumndb from 22.2.26 to 22.2.28'"
+  date: 2022-09-11T14:15:10.203Z
+- commits:
     - subject: Update @types/jest from 29.0.0 to 29.0.1
       hash: ff83d578aef9ead7e44b710bd1a816570677d2dd
       body: ""
