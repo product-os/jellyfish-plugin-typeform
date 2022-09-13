@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.103 - 2022-09-13
+
+* Update @balena/jellyfish-worker from 33.4.29 to 33.4.30 [renovate[bot]]
+
 ## 10.0.102 - 2022-09-13
 
 * CI: Move to Flowzone [Josh Bowling]
