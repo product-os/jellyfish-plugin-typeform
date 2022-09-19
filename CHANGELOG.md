@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.137 - 2022-09-19
+
+* Add CodeQL workflow [Josh Bowling]
+
 ## 10.0.136 - 2022-09-19
 
 * Update autumndb from 22.2.59 to 22.2.60 [renovate[bot]]

@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add CodeQL workflow
+      hash: 85b42eaad4483a2b61a7ba4915b4fa1182abcba5
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 10.0.137
+  title: ""
+  date: 2022-09-19T07:29:42.010Z
+- commits:
     - subject: Update autumndb from 22.2.59 to 22.2.60
       hash: 1e0e8a68ad223f39573d279a6cfd404058069776
       body: ""
