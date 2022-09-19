@@ -1,4 +1,18 @@
 - commits:
+    - subject: Drop test:compose script
+      hash: a46f8a99be9b8a78456c00df082c7771d8720a33
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 10.0.130
+  title: ""
+  date: 2022-09-19T02:55:36.821Z
+- commits:
     - subject: Update autumndb from 22.2.55 to 22.2.57
       hash: c08d049d3f613d8ce9cc1c327864ac07f875f269
       body: ""

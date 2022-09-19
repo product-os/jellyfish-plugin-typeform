@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.130 - 2022-09-19
+
+* Drop test:compose script [Josh Bowling]
+
 ## 10.0.129 - 2022-09-19
 
 * Update autumndb from 22.2.55 to 22.2.57 [renovate[bot]]
