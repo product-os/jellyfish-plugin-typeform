@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 33.4.63 to 33.4.64
+      hash: 9a313b5988daddeb8ef11d65134c90dfc1003bcc
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 10.0.135
+  title: ""
+  date: 2022-09-19T04:46:37.418Z
+- commits:
     - subject: "Dev: Add .nvmrc"
       hash: 71d8c3a96603892631f290f2824715fd388be2ba
       body: ""
