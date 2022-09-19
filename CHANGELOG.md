@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.138 - 2022-09-19
+
+* Update @balena/jellyfish-worker from 33.4.64 to 33.4.68 [renovate[bot]]
+
 ## 10.0.137 - 2022-09-19
 
 * Add CodeQL workflow [Josh Bowling]
