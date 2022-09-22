@@ -1,4 +1,18 @@
 - commits:
+    - subject: Remove unused .editorconfig
+      hash: de52a0aa1536897ff7d2322b7c9baa18ee91ee48
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 10.0.151
+  title: ""
+  date: 2022-09-22T01:53:57.217Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 33.4.79 to 33.4.81
       hash: 0b1e151b1ca0d6bf74f50e5d1ef8ba60a71e7f4d
       body: ""
