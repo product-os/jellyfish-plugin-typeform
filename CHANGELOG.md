@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.152 - 2022-09-23
+
+* Update @balena/jellyfish-worker from 33.4.81 to 33.5.0 [renovate[bot]]
+
 ## 10.0.151 - 2022-09-22
 
 * Remove unused .editorconfig [Josh Bowling]

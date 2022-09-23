@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 33.4.81 to 33.5.0
+      hash: 042654b08137330ed027f3e7d679ceb275d8a095
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 10.0.152
+  title: ""
+  date: 2022-09-23T04:33:28.614Z
+- commits:
     - subject: Remove unused .editorconfig
       hash: de52a0aa1536897ff7d2322b7c9baa18ee91ee48
       body: ""
