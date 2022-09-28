@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 34.1.33 to 34.1.36
+      hash: ed3138e2de61b17fd42bd3a498ca7d3558989bb1
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 10.0.178
+  title: ""
+  date: 2022-09-28T09:04:44.471Z
+- commits:
     - subject: Change engines to >=16 to enable node 18 tests/usage
       hash: 7619782c7e41b26673684bb81df0caf257de476c
       body: ""

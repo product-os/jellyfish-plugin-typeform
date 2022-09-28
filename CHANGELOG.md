@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.178 - 2022-09-28
+
+* Update @balena/jellyfish-worker from 34.1.33 to 34.1.36 [renovate[bot]]
+
 ## 10.0.177 - 2022-09-28
 
 * Change engines to >=16 to enable node 18 tests/usage [Page-]
