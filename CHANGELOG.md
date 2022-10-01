@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.182 - 2022-10-01
+
+* Update typescript from 4.8.3 to 4.8.4 [renovate[bot]]
+
 ## 10.0.181 - 2022-10-01
 
 * Update ts-jest from 29.0.2 to 29.0.3 [renovate[bot]]

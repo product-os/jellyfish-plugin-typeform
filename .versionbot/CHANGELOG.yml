@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update typescript from 4.8.3 to 4.8.4
+      hash: d8c08d0f878a870004c897916e8d2cb011f28e1f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 10.0.182
+  title: ""
+  date: 2022-10-01T00:25:10.883Z
+- commits:
     - subject: Update ts-jest from 29.0.2 to 29.0.3
       hash: a55d4476865a88b577cfb5db0082bb080c87f8ce
       body: ""
