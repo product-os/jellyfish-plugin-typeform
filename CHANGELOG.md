@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.183 - 2022-10-01
+
+* Update @balena/jellyfish-worker from 34.1.36 to 34.1.39 [renovate[bot]]
+
 ## 10.0.182 - 2022-10-01
 
 * Update typescript from 4.8.3 to 4.8.4 [renovate[bot]]
