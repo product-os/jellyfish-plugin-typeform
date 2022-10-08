@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.217 - 2022-10-08
+
+* Dev: Use prettier for json/yml [Josh Bowling]
+
 ## 10.0.216 - 2022-10-08
 
 * Update @types/jest from 29.1.1 to 29.1.2 [renovate[bot]]
