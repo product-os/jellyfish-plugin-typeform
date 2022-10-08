@@ -32,13 +32,16 @@
     ],
     "*.ts": [
       "balena-lint --fix"
+    ],
+    "*.{json,yml}": [
+      "prettier -w"
     ]
   },
   "scripts": {
     "clean": "rimraf build",
     "build": "npm run clean && tsc -p tsconfig.build.json",
-    "lint": "balena-lint lib test && deplint",
-    "lint:fix": "balena-lint --fix lib test",
+    "lint": "balena-lint lib test && deplint && prettier --check **/*.json **/*.yml",
+    "lint:fix": "balena-lint --fix lib test && prettier -w **/*.json **/*.yml",
     "test": "npm run lint && npm run test:unit",
     "test:unit": "jest test/unit",
     "test:integration": "jest --bail --runInBand test/integration",
