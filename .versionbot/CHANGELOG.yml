@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 35.0.13 to 35.0.15
+      hash: 93d007059d4720dd36ecb12ba9c218eff4fee7ac
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 10.0.218
+  title: ""
+  date: 2022-10-09T01:55:06.075Z
+- commits:
     - subject: "Dev: Use prettier for json/yml"
       hash: 6bfbe5874cae4fba9e2dc5f7a0d2a3b59b72400e
       body: ""

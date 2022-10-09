@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.218 - 2022-10-09
+
+* Update @balena/jellyfish-worker from 35.0.13 to 35.0.15 [renovate[bot]]
+
 ## 10.0.217 - 2022-10-08
 
 * Dev: Use prettier for json/yml [Josh Bowling]
