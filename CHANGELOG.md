@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.230 - 2022-10-10
+
+* CI: Use JSON for Jest config [Josh Bowling]
+
 ## 10.0.229 - 2022-10-10
 
 * Update autumndb from 22.2.136 to 22.2.138 [renovate[bot]]
