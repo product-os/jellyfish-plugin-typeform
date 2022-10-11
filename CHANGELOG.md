@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.237 - 2022-10-11
+
+* Update typedoc from 0.23.15 to 0.23.16 [renovate[bot]]
+
 ## 10.0.236 - 2022-10-11
 
 * Update autumndb from 22.2.143 to 22.2.145 [renovate[bot]]
