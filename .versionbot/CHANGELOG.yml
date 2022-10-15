@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update jest from 29.1.2 to 29.2.0
+      hash: 8f1ffb4648f907cd1889de8852c29cb2cb9695ca
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 10.0.241
+  title: ""
+  date: 2022-10-15T01:07:26.854Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 35.0.34 to 35.0.39
       hash: 5f03112351e9d95e758519609763f828ae325c09
       body: ""
@@ -12377,8 +12389,8 @@
     - subject: "build(deps): bump underscore from 1.12.0 to 1.13.1"
       hash: 94b1456ea9b40ad28768db99ca59af794c3264a1
       body: >
-        Bumps [underscore](https://github.com/jashkenas/underscore) from 1.12.0
-        to 1.13.1.
+        Bumps [underscore](https://github.com/jashkenas/underscore) from 1.12.0 to
+        1.13.1.
 
         - [Release notes](https://github.com/jashkenas/underscore/releases)
 
