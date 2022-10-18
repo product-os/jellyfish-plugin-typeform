@@ -54,7 +54,7 @@
   "license": "AGPL-3.0",
   "dependencies": {
     "@balena/jellyfish-worker": "^35.0.62",
-    "autumndb": "^22.2.153",
+    "autumndb": "^22.2.154",
     "lodash": "^4.17.21",
     "uuid": "^8.3.2"
   },
