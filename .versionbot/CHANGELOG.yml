@@ -1,4 +1,20 @@
 - commits:
+    - subject: "CI: Use older flowzone tag"
+      hash: d3dba9c4c4274c9d2c24007ed4001d34839d9bf7
+      body: |
+        Temporarily downgrading to older version of flowzone as CI is
+        consistently failing due to problems in more recent version
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 10.0.242
+  title: ""
+  date: 2022-10-18T05:41:38.906Z
+- commits:
     - subject: Update jest from 29.1.2 to 29.2.0
       hash: 8f1ffb4648f907cd1889de8852c29cb2cb9695ca
       body: ""

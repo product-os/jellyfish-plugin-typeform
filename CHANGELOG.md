@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.242 - 2022-10-18
+
+* CI: Use older flowzone tag [Josh Bowling]
+
 ## 10.0.241 - 2022-10-15
 
 * Update jest from 29.1.2 to 29.2.0 [renovate[bot]]
