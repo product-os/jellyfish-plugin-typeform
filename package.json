@@ -53,7 +53,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "AGPL-3.0",
   "dependencies": {
-    "@balena/jellyfish-worker": "^35.0.64",
+    "@balena/jellyfish-worker": "35.0.65-joshbwlng-event-exceptions-835663eb5f581e6afbc4c83c6c5bb44288f004b8",
     "autumndb": "^22.2.154",
     "lodash": "^4.17.21",
     "uuid": "^8.3.2"
