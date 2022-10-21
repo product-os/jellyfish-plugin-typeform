@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update jellyfish-worker to v36
+      hash: 1dd8761decd27ab4215802d187e6c01b1fa575a5
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 10.0.255
+  title: ""
+  date: 2022-10-21T01:41:09.238Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 35.0.66 to 35.0.67
       hash: a6cb274966b0639fbdc9b0dedd00b82d84bfd93d
       body: ""
