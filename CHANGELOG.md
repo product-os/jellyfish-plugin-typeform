@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.260 - 2022-10-22
+
+* Update @balena/jellyfish-worker from 36.0.5 to 36.0.7 [renovate[bot]]
+
 ## 10.0.259 - 2022-10-22
 
 * Update simple-git-hooks from 2.8.0 to 2.8.1 [renovate[bot]]
