@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.270 - 2022-10-24
+
+* Update @balena/jellyfish-worker from 36.0.14 to 36.0.18 [renovate[bot]]
+
 ## 10.0.269 - 2022-10-24
 
 * Update autumndb from 22.2.158 to 22.2.160 [renovate[bot]]
