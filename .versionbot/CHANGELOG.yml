@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 36.0.13 to 36.0.14
+      hash: 31a0e52276fbc511176be9778642a007831883b0
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 10.0.268
+  title: ""
+  date: 2022-10-24T02:37:53.191Z
+- commits:
     - subject: "Docs: Remove badge from readme"
       hash: 6cf19f3abf640e3278899358d5be2f340502761c
       body: ""
