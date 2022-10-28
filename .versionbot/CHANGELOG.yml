@@ -1,4 +1,24 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 37.0.12 to 37.0.13
+      hash: b8668cdd69721a0859dc03fb2eb8ad4508ea3a2d
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+    - subject: Update @balena/jellyfish-worker from 37.0.10 to 37.0.12
+      hash: a7da99a3efe5d8428112643c079898ce083cd67e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 10.0.282
+  title: ""
+  date: 2022-10-28T06:26:10.207Z
+- commits:
     - subject: Update typedoc from 0.23.18 to 0.23.19
       hash: 5951c20c99c0512dd7af03629fab2cc39de2efcd
       body: ""
