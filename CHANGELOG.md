@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.285 - 2022-11-03
+
+* Update typedoc from 0.23.19 to 0.23.20 [renovate[bot]]
+
 ## 10.0.284 - 2022-10-29
 
 * Update jest from 29.2.1 to 29.2.2 [renovate[bot]]

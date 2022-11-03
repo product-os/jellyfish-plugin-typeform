@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update typedoc from 0.23.19 to 0.23.20
+      hash: 85911a9ac98f67883339ad5040d9a36aab828425
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 10.0.285
+  title: ""
+  date: 2022-11-03T03:49:17.635Z
+- commits:
     - subject: Update jest from 29.2.1 to 29.2.2
       hash: 1ba071059b3bfc9d7590b71d838947914273e9b2
       body: ""
