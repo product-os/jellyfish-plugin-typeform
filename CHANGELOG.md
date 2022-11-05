@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.288 - 2022-11-05
+
+* Update @types/jest from 29.2.0 to 29.2.2 [renovate[bot]]
+
 ## 10.0.287 - 2022-11-03
 
 * Update @balena/jellyfish-worker from 37.0.20 to 37.0.21 [renovate[bot]]
