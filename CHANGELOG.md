@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.0.306 - 2022-12-13
+
+* CI: Use flowzone master [Josh Bowling]
+
 ## 10.0.305 - 2022-11-25
 
 * Update autumndb from 22.2.172 to 22.2.173 [renovate[bot]]
