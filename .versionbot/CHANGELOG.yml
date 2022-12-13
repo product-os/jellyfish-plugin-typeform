@@ -1,4 +1,18 @@
 - commits:
+    - subject: "CI: Stop extending renovate config"
+      hash: bfb17a4f0f60b9c57cf225b233c509df55df55f1
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 10.0.307
+  title: ""
+  date: 2022-12-13T00:57:08.042Z
+- commits:
     - subject: "CI: Use flowzone master"
       hash: 352b98c2e9bc4aee512f322c9d583431b83dcf9a
       body: ""
