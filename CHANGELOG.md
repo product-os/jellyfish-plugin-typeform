@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.4.0 - 2022-12-21
+
+* Update Node.js to 18.12.1 [Renovate Bot]
+
 ## 10.3.0 - 2022-12-21
 
 * Pin dependencies [Renovate Bot]

@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update Node.js to 18.12.1
+      hash: 94b76e70e90f2409c5a5b49cc81bef88dace7a6e
+      body: |
+        Update node to 18.12.1
+
+        Update node from 16.18.1 to 18.12.1
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Renovate Bot
+      nested: []
+  version: 10.4.0
+  title: ""
+  date: 2022-12-21T01:18:12.676Z
+- commits:
     - subject: Pin dependencies
       hash: cc3202bf82be0b84fd5a7e55efc29f6804f4f2a1
       body: |
