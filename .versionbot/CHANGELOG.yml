@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update dependency uuid to 9.0.0
+      hash: 4497b8ed583b39631fa48a1e6db8c0a8d6b802a0
+      body: |
+        Update uuid to 9.0.0
+
+        Update uuid from 8.3.2 to 9.0.0
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Renovate Bot
+      nested: []
+  version: 10.5.0
+  title: ""
+  date: 2022-12-22T01:59:49.185Z
+- commits:
     - subject: Update Node.js to 18.12.1
       hash: 94b76e70e90f2409c5a5b49cc81bef88dace7a6e
       body: |
