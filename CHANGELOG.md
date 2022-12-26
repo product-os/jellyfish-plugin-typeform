@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.6.0 - 2022-12-26
+
+* Update postgres Docker tag to v15 [Renovate Bot]
+
 ## 10.5.0 - 2022-12-22
 
 * Update dependency uuid to 9.0.0 [Renovate Bot]
