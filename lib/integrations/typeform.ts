@@ -5,9 +5,8 @@ import type {
 	SequenceItem,
 } from '@balena/jellyfish-worker';
 import type { Contract, ContractData } from 'autumndb';
-import * as crypto from 'crypto';
-import * as _ from 'lodash';
-import { v4 as uuidv4 } from 'uuid';
+import * as crypto from 'node:crypto';
+import _ from 'lodash';
 
 const SLUG = 'typeform';
 
@@ -64,7 +63,7 @@ export class TypeformIntegration implements Integration {
 
 		const contactContract = await this.context.getContactByEmail(email);
 
-		const surveyContractId = uuidv4();
+		const surveyContractId = crypto.randomUUID();
 		const surveyContractType = 'user-feedback@1.0.0';
 
 		const results = [
@@ -90,7 +89,7 @@ export class TypeformIntegration implements Integration {
 				time: new Date(timestamp),
 				actor: adminActorId,
 				card: {
-					id: uuidv4(),
+					id: crypto.randomUUID(),
 					name: 'is attached to',
 					type: 'link@1.0.0',
 					slug: `link-${cardSlug}-is-attached-to-${contactContract.slug}`,
