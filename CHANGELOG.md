@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.7.0 - 2023-01-05
+
+* Update actions/checkout digest to ac59398 [Renovate Bot]
+
 ## 10.6.1 - 2023-01-01
 
 * Drop uuid [Josh Bowling]

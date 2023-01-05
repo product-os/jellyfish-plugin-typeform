@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update actions/checkout digest to ac59398
+      hash: 675c833898704816f74b5e6acef082ff91d85abd
+      body: |
+        Update actions/checkout to
+
+        Update actions/checkout from 3 to
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Renovate Bot
+      nested: []
+  version: 10.7.0
+  title: ""
+  date: 2023-01-05T15:01:10.600Z
+- commits:
     - subject: Drop uuid
       hash: 0970d5c5f42a87554d27913c0cc7874279aee377
       body: ""
