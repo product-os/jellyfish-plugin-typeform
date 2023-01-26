@@ -5,6 +5,10 @@
 
 ## 1.0.1 - 2021-02-24
 
+## 10.10.0 - 2023-01-26
+
+* Update github/codeql-action digest to 436dbd9 [Renovate Bot]
+
 ## 10.9.1 - 2023-01-18
 
 * Update dependency rimraf to 4.1.1 [Renovate Bot]
